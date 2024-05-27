@@ -26,7 +26,7 @@ const Heading = () => {
                     {heading.role}
                   </p>
 
-                  <p className="mt-6 flex max-w-xl justify-center lg:max-w-2xl">
+                  <p className="mt-6 flex max-w-xl justify-center md:max-w-2xl lg:max-w-max">
                     {heading.description}
                   </p>
                 </div>
