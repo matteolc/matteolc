@@ -27,7 +27,9 @@ const Heading = () => {
                   </p>
 
                   <p className="mt-6 flex max-w-xl justify-center md:max-w-2xl lg:max-w-max">
-                    {heading.description}
+                    <span
+                      dangerouslySetInnerHTML={{ __html: heading.description }}
+                    />
                   </p>
                 </div>
               </div>

@@ -59,6 +59,7 @@ const Skills = () => {
         {[
           'Playing guitar',
           'Cooking',
+          'Follow racing cars sports',
           'Gardening and plants',
           'LEGO building',
           'Time with family',

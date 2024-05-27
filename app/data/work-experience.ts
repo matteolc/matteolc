@@ -12,7 +12,7 @@ const workExperience = {
       description:
         'When Capdesk was acquired by Carta the engineering teams continued operating as before. On top of the previous responsibilities, I:',
       items: [
-        'Mentor junior memebers of the team and helped them reach deadlines',
+        'Mentor junior memebers of the team and help them reach deadlines',
         'Work on tech-debt items raised in Engineering retros',
         'Participate in the social committee for the organisation of quarterly in-person events',
         'Engage with design and product to fine-tune feature specifications and user stories and move past hurdles',
@@ -156,7 +156,7 @@ const workExperience = {
       to: '2006',
       current: false,
       description:
-        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi proprietary network',
+        'Plan and deploy Voice-over-IP services on top of the existing Wi-Fi proprietary network',
       items: [
         'Operate and upgrade the proprietary Wi-Fi and Satellite network',
         'Deploy and help troubleshoot customer VoIP issues over wireless',
