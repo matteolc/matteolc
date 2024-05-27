@@ -129,7 +129,7 @@ const workExperience = {
       to: '2012',
       current: false,
       description:
-        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi propietary network',
+        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi proprietary network',
       items: [],
       skills: ['Digitalk', 'Squire', 'VoIP', 'SS7', 'Wi-Fi', 'Sys-admin'],
     },
@@ -140,7 +140,7 @@ const workExperience = {
       to: '2009',
       current: false,
       description:
-        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi propietary network',
+        'Support customers in the deployment and operation of the Digitalk Softswitch',
       items: [
         'Timely resolve support tickets with various levels of escalation',
         'Successfully rack-up and bootstrap new customers',
@@ -156,7 +156,7 @@ const workExperience = {
       to: '2006',
       current: false,
       description:
-        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi propietary network',
+        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi proprietary network',
       items: [
         'Operate and upgrade the proprietary Wi-Fi and Satellite network',
         'Deploy and help troubleshoot customer VoIP issues over wireless',
