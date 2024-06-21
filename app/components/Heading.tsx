@@ -33,7 +33,7 @@ const Heading = () => {
                       (file, index) => (
                         <a
                           key={index}
-                          href={'/matteolc/public/Matteo_La_Cognata_Resume.' + file.type}
+                          href={'/matteolc/Matteo_La_Cognata_Resume.' + file.type}
                           target="_blank"
                           rel="noreferrer"
                           className="h-8 text-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
