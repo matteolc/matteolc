@@ -8,7 +8,7 @@ const education = {
       from: '2002',
       to: '2003',
       description:
-        'Develop an HDL synchronization algorithm for Digital Video Broadcasting signals',
+        'Developed an HDL synchronization algorithm for Digital Video Broadcasting signals, contributing to advanced broadcasting technology.',
     },
     {
       position: 'Telecommunication Engineering, M.Sc',

@@ -16,6 +16,9 @@ const Skills = () => {
       [SkillCategory.frameworks]: [],
       [SkillCategory.operations]: [],
       [SkillCategory.databases]: [],
+      [SkillCategory.testing]: [],
+      [SkillCategory.projectManagement]: [],
+      [SkillCategory.emergingTechnologies]: [],
     },
   )
   return (
@@ -41,11 +44,10 @@ const Skills = () => {
       </h3>
       <ul className="mb-8 flex flex-wrap gap-x-2 gap-y-1">
         {[
+          'Leadership',
           'Communication',
-          'Teamwork',
           'Problem-solving',
-          'Time management',
-          'Creativity',
+          'Mentorship',
         ].map((skill, index) => (
           <li key={index}>
             <SkillBadge skill={skill} />
@@ -57,13 +59,13 @@ const Skills = () => {
       </h3>
       <ul className="mb-8 flex flex-wrap gap-x-2 gap-y-1">
         {[
-          'Playing guitar',
-          'Cooking',
-          'Follow racing cars sports',
-          'Gardening and plants',
-          'LEGO building',
-          'Time with family',
-          'Time with nature',
+          'Musicianship',
+          'Culinary Arts',
+          'Motorsport Enthusiast',
+          'Horticulture',
+          'Creative Building',
+          'Family Engagement',
+          'Nature Enthusiast',
         ].map((skill, index) => (
           <li key={index}>
             <SkillBadge skill={skill} />

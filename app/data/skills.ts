@@ -3,6 +3,9 @@ enum SkillCategory {
   frameworks = 'Frameworks',
   operations = 'Operations',
   databases = 'Databases',
+  projectManagement = 'Project Management',
+  testing = 'Testing',
+  emergingTechnologies = 'Emerging Technologies',
 }
 
 const skills = {
@@ -45,7 +48,7 @@ const skills = {
       category: SkillCategory.frameworks,
     },
     {
-      skill: 'Remix',
+      skill: 'Remix.run',
       since: '2022',
       level: 3,
       category: SkillCategory.frameworks,
@@ -97,6 +100,42 @@ const skills = {
       since: '2006-2009',
       level: 4,
       category: SkillCategory.databases,
+    },
+    {
+      skill: 'Scrum',
+      since: '2022',
+      level: 4,
+      category: SkillCategory.projectManagement,
+    },
+    {
+      skill: 'Kanban',
+      since: '2022',
+      level: 4,
+      category: SkillCategory.projectManagement,
+    },
+    {
+      skill: 'Jest',
+      since: '2022',
+      level: 3,
+      category: SkillCategory.testing,
+    },
+    {
+      skill: 'Cypress',
+      since: '2022',
+      level: 3,
+      category: SkillCategory.testing,
+    },
+    {
+      skill: 'Minitest & RSpec (Ruby)',
+      since: '2012',
+      level: 4,
+      category: SkillCategory.testing,
+    },
+    {
+      skill: 'Machine Learning',
+      since: '2023',
+      level: 1,
+      category: SkillCategory.emergingTechnologies,
     },
   ],
 }

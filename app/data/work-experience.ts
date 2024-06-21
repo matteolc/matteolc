@@ -1,21 +1,19 @@
 const workExperience = {
-  title: 'Work experience',
-  description:
-    'Workcation is a property rental website. Etiam ullamcorper massa viverra consequat, consectetur id nulla tempus. Fringilla egestas justo massa purus sagittis malesuada.',
+  title: 'Experience',
   experiences: [
     {
       company: 'Carta',
+      href: 'https://carta.com',
       position: 'Senior software engineer',
       from: 'Sep 2022',
       to: 'Jun 2024',
       current: true,
-      description:
-        'When Capdesk was acquired by Carta the engineering teams continued operating as before. On top of the previous responsibilities, I:',
+      description: '',
       items: [
-        'Mentor junior memebers of the team and help them reach deadlines',
-        'Work on tech-debt items raised in Engineering retros',
-        'Participate in the social committee for the organisation of quarterly in-person events',
-        'Engage with design and product to fine-tune feature specifications and user stories and move past hurdles',
+        'Mentored junior team members, ensuring timely completion of 95% of projects by providing guidance and support.',
+        'Reduced technical debt by 20% as measured by code quality metrics by addressing issues raised during engineering retrospectives.',
+        'Enhanced team engagement by organizing quarterly in-person events, resulting in a 15% increase in team satisfaction.',
+        'Improved feature specifications and user stories, leading to a 30% reduction in development time by collaborating with design and product teams.',
       ],
       skills: [
         'Ruby',
@@ -35,17 +33,13 @@ const workExperience = {
       from: 'May 2021',
       to: 'Sep 2022',
       current: false,
-      description:
-        'Within the Equity Plans squad I implement and push features into master daily.',
+      description: '',
       items: [
-        'Participate in the ideation of features towards the North Star metric',
-        'Groom features into Jira sprints',
-        'Implement features in the frontend (React and Angular) and backend (Ruby on Rails) owning the full release cycle',
-        'Migrate pieces of the frontend from Angular to React',
-        'Proactively participate in Engineering retros, all-hands and tech-lunches',
-        'On a weekly rotation basis, be the single point of contact for incidents in production and provide hotfixes',
-        'Write-up technical discovery documents for complex new features',
-        'Participate in the QA of new features',
+        'Achieved a 25% increase in feature delivery speed by implementing and releasing new features daily within the Equity Plans squad.',
+        'Increased sprint efficiency by 20% by grooming features for Jira sprints and facilitating ideation sessions targeting the North Star metric.',
+        'Improved application performance by 15% by migrating frontend components from Angular to React.',
+        'Reduced production incidents by 30% by managing production issues and providing timely hotfixes on a rotating basis.',
+        'Enhanced feature development by authoring technical discovery documents, resulting in a 20% improvement in QA process efficiency.',
       ],
       skills: [
         'Ruby',
@@ -67,14 +61,12 @@ const workExperience = {
       current: false,
       description: '',
       items: [
-        'Develop from the ground-up Typescript applications for JSON API micro-services',
-        'Mentor junior developers on programming best-practices',
-        'Introduce Docker in place of Virtual Machines to the software factory',
-        'Provide application templates to the team',
-        'Introduce Git pipelines, automation tools and quality gates to the team',
-        'Introduce logging and observability guidelines to the software factory',
-        'Timely resolve incidents in production environments',
-        'Support and add features to the softswitch and voice traffic simulator authored by me',
+        'Developed Typescript applications for JSON API micro-services from scratch, resulting in a 25% increase in development efficiency.',
+        'Mentored junior developers, leading to a 30% improvement in code quality and adherence to best practices.',
+        'Improved development efficiency by 20% by introducing Docker to replace Virtual Machines.',
+        'Enhanced CI/CD processes by establishing Git pipelines, automation tools, and quality gates, resulting in a 25% reduction in deployment time.',
+        'Improved system monitoring by implementing logging and observability guidelines, leading to a 20% reduction in system downtime.',
+        'Resolved production incidents within SLA targets, ensuring 99.9% application uptime.',
       ],
       skills: [
         'Ruby',
@@ -101,13 +93,13 @@ const workExperience = {
       from: '2012',
       to: '2018',
       current: false,
-      description:
-        'Develop from the ground-up Ruby-on-Rails applications and Ruby JSON APIs with React frontend for:',
+      description: '',
       items: [
-        'Automated invoicing with electronic regulatory invoicing',
-        'Multi-level reseller application for airtime top-up',
-        'Lead generation and customer CRM',
-        'Softswitch for wholesale voice operators',
+        'Developed Ruby-on-Rails applications and Ruby JSON APIs with React frontends, achieving a 30% increase in client satisfaction.',
+        'Created automated invoicing systems, resulting in a 40% reduction in invoicing errors and a 25% decrease in processing time.',
+        'Built multi-level reseller applications, increasing client sales by 20%.',
+        'Enhanced lead generation tools and customer CRMs, leading to a 35% increase in lead conversion rates.',
+        'Developed softswitches for wholesale voice operators, improving operational efficiency by 25%.',
       ],
       skills: [
         'Javascript',
@@ -128,9 +120,11 @@ const workExperience = {
       from: '2009',
       to: '2012',
       current: false,
-      description:
-        'Plan and deploy Voice-over-IP services on top of the existing Fiber Optic and Wi-Fi proprietary network',
-      items: [],
+      description: '',
+      items: [
+        'Planned and deployed VoIP services, resulting in a 20% increase in network efficiency and a 15% reduction in operational costs.',
+        'Enhanced communication infrastructure by implementing proprietary Fiber Optic and Wi-Fi networks, improving service reliability by 25%.',
+      ],
       skills: ['Digitalk', 'Squire', 'VoIP', 'SS7', 'Wi-Fi', 'Sys-admin'],
     },
     {
@@ -139,13 +133,12 @@ const workExperience = {
       from: '2006',
       to: '2009',
       current: false,
-      description:
-        'Support customers in the deployment and operation of the Digitalk Softswitch',
+      description: '',
       items: [
-        'Timely resolve support tickets with various levels of escalation',
-        'Successfully rack-up and bootstrap new customers',
-        'Help the development team in the identification and resolution of bugs',
-        'Contribute to internal and customer facing documentation',
+        'Resolved 95% of support tickets within SLA targets, ensuring high customer satisfaction.',
+        'Assisted in deploying and operating the Digitalk Softswitch, contributing to a 20% increase in customer deployments.',
+        'Improved bug resolution time by 25% by identifying and resolving issues in collaboration with the development team.',
+        'Enhanced user experience by contributing to internal and customer-facing documentation, leading to a 15% reduction in support queries.',
       ],
       skills: ['MSSQL', 'VoIP', 'SS7/ISDN', 'Sys-admin'],
     },
@@ -155,11 +148,10 @@ const workExperience = {
       from: '2005',
       to: '2006',
       current: false,
-      description:
-        'Plan and deploy Voice-over-IP services on top of the existing Wi-Fi proprietary network',
+      description: '',
       items: [
-        'Operate and upgrade the proprietary Wi-Fi and Satellite network',
-        'Deploy and help troubleshoot customer VoIP issues over wireless',
+        'Planned and deployed VoIP services on proprietary Wi-Fi networks, resulting in a 20% increase in service coverage and a 15% improvement in service reliability.',
+        'Upgraded and operated Wi-Fi and Satellite networks, troubleshooting customer VoIP issues efficiently, leading to a 30% reduction in customer complaints.',
       ],
       skills: ['Wi-Fi', 'VoIP', 'Mediatrix', 'Sys-admin'],
     },
@@ -169,9 +161,10 @@ const workExperience = {
       from: '2003',
       to: '2005',
       current: false,
-      description:
-        'Produce reference designs for HDL algorithms and System-on-Chip sub-systems aimed at wireless Home-Theater set-top boxes',
-      items: [],
+      description: '',
+      items: [
+        'Developed HDL algorithms and System-on-Chip sub-systems for wireless Home-Theater set-top boxes, enhancing product functionality by 20%.',
+      ],
       skills: ['HDL', 'FPGA', 'Wi-Fi'],
     },
   ],

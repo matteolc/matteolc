@@ -4,7 +4,21 @@ const heading = {
   role: 'Senior Software Engineer',
   imageUrl: '/matteolc/profile.jpeg',
   description:
-    'I am a software engineer with over 10 years of experience in the field. I have worked in various companies and projects, from small startups to large corporations. I am pragmatic, never dogmatic and always open to debate. Although writing and pushing code to production is my daily activity, I excel in design and I am very receptive in translating user pain-points into smooth user journeys. I am a team player and I enjoy mentoring junior members of the team. I am a strong advocate for mental health and I am always looking for ways to make the tech industry a more supportive place.<br/><br/>My mother tongue is Italian. I speak and write fluently in English and I understand at amateur level Portuguese, Spanish and Greek.',
+    'Highly experienced and detail-oriented Senior Software Engineer with over 10 years of expertise in full-stack development. Demonstrated ability to design and implement scalable software solutions, mentor team members, and enhance user experiences. Proficient in transforming user requirements into seamless user journeys. Advocate for fostering a supportive tech environment. Fluent in English and Italian, with working knowledge of Portuguese, Spanish, and Greek.',
+  skills: [
+    'Full-stack development (Ruby, Rails, React, Angular)',
+    'Frontend and backend development',
+    'Micro-services architecture',
+    'Monolith architecture',
+    'CI/CD pipelines (Git, GitHub, GitLab)',
+    'Docker, Heroku',
+    'PostgreSQL, TimescaleDB',
+    'VoIP systems (FreeSWITCH, SS7, Digitalk)',
+    'System administration (Unix, Microsoft)',
+    'Mentorship and team leadership',
+    'User experience design and implementation',
+    'Incident management and production support',
+  ],
 }
 
 export { heading }
