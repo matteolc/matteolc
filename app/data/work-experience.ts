@@ -12,8 +12,10 @@ const workExperience = {
       items: [
         'Mentored junior team members, ensuring timely completion of projects by providing guidance and support.',
         'Reduced technical debt by addressing issues raised during engineering retrospectives.',
-        'Enhanced team engagement by organizing quarterly in-person events, resulting in an increase in team satisfaction.',
-        'Improved feature specifications and user stories, leading to speedy development time by collaborating with design and product teams.',
+        'Enhanced team engagement by organizing quarterly in-person events, resulting in a notable increase in team satisfaction.',
+        'Improved feature specifications and user stories by collaborating with design and product teams, leading to a reduction in development time.',
+        'Architected and implemented scalable backend solutions, resulting in improved data processing efficiency.',
+        'Collaborated with cross-functional teams to define and prioritize technical initiatives, aligning them with business goals.',
       ],
       skills: [
         'Ruby',
@@ -41,6 +43,7 @@ const workExperience = {
         'Improved application performance by migrating frontend components from Angular to React.',
         'Reduced production incidents by managing production issues and providing timely hotfixes on a rotating basis.',
         'Enhanced feature development by authoring technical discovery documents for complex features.',
+        'Developed and maintained documentation for technical processes, improving knowledge transfer and onboarding efficiency.',
       ],
       skills: [
         'Ruby',
@@ -152,7 +155,7 @@ const workExperience = {
       current: false,
       description: '',
       items: [
-        'Planned and deployed VoIP services on proprietary Wi-Fi networks, resulting in an increase in service coverage and an improvement in service reliability.',
+        'Planned and deployed VoIP services on proprietary Wi-Fi networks, resulting in an increase in service coverage and improved reliability.',
         'Upgraded and operated Wi-Fi and Satellite networks, troubleshooting customer VoIP issues efficiently, leading to a reduction in customer complaints.',
       ],
       skills: ['Wi-Fi', 'VoIP', 'Mediatrix', 'Sys-admin'],
