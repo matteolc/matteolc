@@ -3,6 +3,7 @@ import { YearBadge } from '../badges/YearBadge'
 
 const WorkExperienceCard = ({
   company,
+  href,
   position,
   from,
   to,
@@ -12,6 +13,7 @@ const WorkExperienceCard = ({
   skills,
 }: {
   company: string
+  href?: string
   position: string
   from: string
   to: string
@@ -28,7 +30,7 @@ const WorkExperienceCard = ({
           <h4 className="py-2 text-3xl font-semibold leading-6 text-gray-900">
             {position}
           </h4>
-          <p className="mt-1 text-lg text-gray-500">{company}</p>
+          {href ? <a className="text-blue-600 hover:underline underline-offset-2" href={href}>{company}</a> : <p className="mt-1 text-lg text-gray-500">{company}</p>}
         </div>
       </div>
       {description && (

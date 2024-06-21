@@ -29,6 +29,7 @@ const workExperience = {
     },
     {
       company: 'Capdesk',
+      href: 'https://www.capdesk.com',
       position: 'Senior software engineer',
       from: 'May 2021',
       to: 'Sep 2022',
@@ -55,6 +56,7 @@ const workExperience = {
     },
     {
       company: 'Fabbricadigitale',
+      href: 'https://www.fabbricadigitale.it',
       position: 'Senior software developer',
       from: '2018',
       to: 'May 2021',
@@ -129,6 +131,7 @@ const workExperience = {
     },
     {
       company: 'Digitalk, Rome/Milton Keynes',
+      href: 'https://www.digitalk.com',
       position: 'Technical support engineer',
       from: '2006',
       to: '2009',
