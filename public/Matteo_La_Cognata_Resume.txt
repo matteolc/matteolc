@@ -1,0 +1,174 @@
+MATTEO LA COGNATA
+Senior Software Engineer
+
+matteo.lacognata@gmail.com
+https://www.linkedin.com/in/matteolc
+Milan
+
+Experience
+======
+Senior Software Engineer
+Carta
+09/2022undefined
+Milan (Remote)
+ - Mentored junior team members, ensuring timely completion of projects by providing guidance and support
+ - Reduced technical debt by addressing issues raised during engineering retrospectives
+ - Enhanced team engagement by organizing quarterly in-person events, resulting in increased team satisfaction
+ - Improved feature specifications and user stories by collaborating with design and product teams, leading to a reduction in development time
+ - Architected and implemented scalable backend solutions, improving data processing efficiency
+ - Collaborated with cross-functional teams to define and prioritize technical initiatives, aligning them with business goals
+
+Senior Software Engineer
+Capdesk
+05/2021 - 09/2022
+Milan (Remote)
+ - Achieved an increase in feature delivery speed by implementing and releasing new features daily within the Equity Plans squad
+ - Increased sprint efficiency by grooming features for Jira sprints and facilitating ideation sessions
+ - Improved application performance by migrating frontend components from Angular to React
+ - Reduced production incidents by managing production issues and providing timely hotfixes
+ - Enhanced feature development by authoring technical discovery documents, improving QA process efficiency
+ - Developed and maintained documentation for technical processes, improving knowledge transfer and onboarding efficiency
+ - Ruby, Typescript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog
+
+Senior Software Developer
+Fabbricadigitale
+01/2018 - 05/2021
+Milan (Remote)
+ - Developed Typescript applications for JSON API micro-services, increasing development efficiency
+ - Mentored junior developers, improving code quality and adherence to best practices
+ - Improved development efficiency by introducing Docker to replace Virtual Machines
+ - Enhanced CI/CD processes by establishing Git pipelines and automation tools, reducing deployment time
+ - Improved system monitoring by implementing logging and observability guidelines, reducing system downtime
+ - Resolved production incidents within SLA targets, ensuring 99.9% application uptime
+
+Freelance Full-Stack Developer
+Self-employed
+01/2012 - 01/2018
+Milan
+ - Developed Ruby-on-Rails applications and Ruby JSON APIs with React frontends, achieving high client satisfaction
+ - Created automated invoicing systems, reducing invoicing errors and processing time
+ - Built multi-level reseller applications to increase multi-channel client sales
+ - Developed softswitches for wholesale voice operators, decreasing operational costs and improving efficiency
+
+Voice Network Technical Officer
+Soleto SPA
+01/2009 - 01/2012
+Milan
+
+Technical Support Engineer
+Digitalk
+01/2007 - 01/2009
+Rome/Milton Keyenes (UK)
+
+Voice Network Engineer
+Intrastet SA
+01/2006 - 01/2007
+Greece
+
+Embedded Software Developer
+ISD SA
+01/2005 - 12/2005
+Greece
+
+
+Education
+======
+M.Sc. in Telecommunication Engineering
+Politecnico di Milano
+01/1998 - 01/2003
+Milan
+ - STMicroelectronics - 2002 - 2003
+ - Developed an HDL synchronization algorithm for Digital Video
+ - Broadcasting signals, contributing to advanced broadcasting technology
+
+
+Summary
+======
+Experienced and detail-oriented Senior Software Engineer with over 10 years of expertise in full-stack development. Demonstrated ability to design and implement scalable and reliable software solutions, mentor team members, and enhance user experiences. Proficient in transforming user requirements into seamless user journeys. Advocate for fostering a supportive tech environment. Fluent in English and Italian, with working knowledge of Portuguese, Spanish, and Greek.
+
+
+Languages
+======
+Italian
+
+English
+
+
+Skills
+======
+ - Rails
+ - Ruby
+ - Typescript
+ - CI/CD
+ - Github
+ - Git
+ - Gitlab
+ - Angular
+ - API
+ - Datadog
+ - Docker
+ - Elastic
+ - Experience Design
+ - Heroku
+ - Javascript
+ - Jira
+ - Kibana
+ - Micro-services
+ - Mssql
+ - Next.js
+ - Postgresql
+ - Redis
+ - System Monitoring
+ - Unix
+ - VMWare
+ - VOIP
+ - GraphQL
+ - Stripe
+ - Shopify
+ - Remix.run
+ - RSpec
+ - Minitest
+ - Jest
+ - Cypress
+ - Scrum
+ - Kanban
+ - CMS
+ - NodeJS
+ - Twilio
+ - Next.js
+
+
+Passions
+======
+Culinary Arts
+
+Motorsport
+
+Horticulture
+
+Creative Building
+
+Nature Enthusiast
+
+
+Volunteering
+======
+The Sea Turtle Protection Society of Greece
+The Sea Turtle Protection Society of Greece
+01/1999 - 12/2005
+
+
+Strengths
+======
+Technical Leadership
+Proven ability to lead technical teams in designing and implementing scalable software solutions
+
+Mentorship and Support
+Experienced in mentoring junior team members, ensuring timely project completion through guidance and support
+
+Collaboration Skills
+Strong collaboration with cross-functional teams to define and prioritize technical initiatives aligned with business goals
+
+Problem-Solving
+Adept at addressing technical challenges to enhance system efficiency and optimize development processes
+

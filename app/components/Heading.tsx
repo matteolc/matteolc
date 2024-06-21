@@ -29,7 +29,7 @@ const Heading = () => {
                     </div>
                   </div>
                   <div className="mt-4 md:ml-4 grid grid-cols-2 gap-2">
-                    {[{ type: 'pdf', text: 'PDF' }, { type: 'docx', text: 'DOCX' }].map(
+                    {[{ type: 'pdf', text: 'PDF' }, { type: 'txt', text: 'TXT' }].map(
                       (file, index) => (
                         <a
                           key={index}
