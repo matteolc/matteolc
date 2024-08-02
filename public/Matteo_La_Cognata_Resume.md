@@ -15,7 +15,7 @@ Highly experienced and detail-oriented Senior Software Engineer with over 10 yea
 
 **Senior Software Engineer**
 *[Carta](https://carta.com/)*
-*Sep 2022 - Present*
+*Sep 2022 - Jun 2024*
 
 - Mentored junior team members, ensuring timely completion of projects by providing guidance and support.
 - Reduced technical debt as measured by code quality metrics by addressing issues raised during engineering retrospectives.

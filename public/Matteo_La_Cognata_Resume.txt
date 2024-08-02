@@ -9,7 +9,7 @@ Experience
 ======
 Senior Software Engineer
 Carta
-09/2022undefined
+09/2022 - 06/2024
 Milan (Remote)
  - Mentored junior team members, ensuring timely completion of projects by providing guidance and support
  - Reduced technical debt by addressing issues raised during engineering retrospectives
@@ -171,4 +171,3 @@ Strong collaboration with cross-functional teams to define and prioritize techni
 
 Problem-Solving
 Adept at addressing technical challenges to enhance system efficiency and optimize development processes
-

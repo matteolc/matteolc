@@ -7,7 +7,7 @@ const workExperience = {
       position: 'Senior software engineer',
       from: 'Sep 2022',
       to: 'Jun 2024',
-      current: true,
+      current: false,
       description: '',
       items: [
         'Mentored junior team members, ensuring timely completion of projects by providing guidance and support.',
