@@ -1,60 +1,38 @@
-# 👋 Hi, I'm Matteo!
+# Matteo La Cognata
 
-### Creator of [Palettebro](https://palettebro.com)
+Software engineer at [Nearform](https://www.nearform.com), based in Milan. I build frontend products and design-system tooling in TypeScript.
 
-🌈 Palettebro is your go-to tool for effortlessly crafting beautiful color palettes for the web. Perfect for designers, developers, and creatives who want to elevate their projects with stunning visuals!
+I created [Palettebro](https://palettebro.com), a color palette generator for the web, and publish its open-source packages under [`@palettebro`](https://github.com/matteolc/palettebro-packages).
 
----
+## Focus
 
-### 🚀 What I'm Passionate About
+- **Product engineering**: shipping end-to-end web apps with React, Next.js, and React Router
+- **Design systems**: color tokens, Tailwind integration, and tooling designers and developers share
+- **Applied AI**: retrieval-augmented generation (RAG) prototypes with Postgres and modern React stacks
 
-- **Design & UX:** Creating intuitive and visually delightful user experiences.
-- **Frontend Development:** Bridging the gap between design and technology with elegant code.
-- **Open Source:** Contributing to and building tools that empower the creative community.
+## Selected work
 
----
+- [Palettebro](https://palettebro.com): web app for generating and refining color palettes
+- [palettebro-packages](https://github.com/matteolc/palettebro-packages): `@palettebro/generator` and `@palettebro/tailwind`
+- [nextjs-rag](https://github.com/matteolc/nextjs-rag): Next.js RAG demo with PostgreSQL
+- [react-router-rag](https://github.com/matteolc/react-router-rag): React Router RAG app with document ingest, embeddings, and semantic search
 
-### 📂 Active projects
+## Earlier projects
 
-### 1. [nextjs-rag](https://github.com/matteolc/nextjs-rag)
-A Next.js project demonstrating RAG with PostgreSQL.
+These repositories are archived or no longer maintained:
 
-### 2. [react-router-rag](https://github.com/matteolc/react-router-rag)
-The React Router counterpart of #1
+- [rails-api-template](https://github.com/matteolc/rails-api-template): Rails 5 JSON API starter with JWT, Rolify, and Pundit
+- [GTFS-Helpers](https://github.com/matteolc/GTFS-Helpers): import GTFS transit feeds into MySQL or SQLite
+- [air-quality-dashboard](https://github.com/matteolc/air-quality-dashboard): real-time and historical air quality UI for BME688 sensors
+- [modesl-wrapper](https://github.com/matteolc/modesl-wrapper): typed FreeSWITCH ESL helper around `modesl`
 
----
+## Stack
 
-### 📂 Unmantained projects
+- **Languages**: TypeScript, Ruby
+- **Frameworks**: React, Node.js, Next.js, Remix, React Router, Ruby on Rails
+- **Design**: Figma, Tailwind CSS, Miro
 
-### 1. [rails-api-template](https://github.com/matteolc/rails-api-template)
-A Rails 5 JSON API template using JSON API Resources, UUIDs, JWT authentication, role management (Rolify), and authorization (Pundit).
+## Links
 
-### 2. [GTFS-Helpers](https://github.com/matteolc/GTFS-Helpers)
-A Ruby on Rails application designed to import GTFS (General Transit Feed Specification) feeds into MySQL or SQLite databases.
-
-### 3. [air-quality-dashboard](https://github.com/matteolc/air-quality-dashboard)
-A real-time and historical dashboard displaying air quality indicators from BME688 sensors, built with TypeScript.
-
-### 4. [modesl-wrapper](https://github.com/matteolc/modesl-wrapper)
-A wrapper around modesl for FreeSWITCH ESL, providing type-safe event listening, logging, JSON serialization, and custom callbacks.
-
----
-
-### 🛠️ Technologies & Tools
-
-- **Languages:** Typescript, Ruby
-- **Frameworks:** React, Nodejs, Nextjs, Remix, React Router, Ruby on Rails
-- **Design:** Figma, Tailwind, Miro
-
----
-
-### 📫 Connect with Me
-
-- **Website:** [palettebro.com](https://palettebro.com)
-- **GitHub:** [matteolc](https://github.com/matteolc)
-
----
-
-Let's create something beautiful together!
-
-[Curriculum vitae](https://matteolc.github.io/matteolc/)
+- [palettebro.com](https://palettebro.com)
+- [Curriculum vitae](https://matteolc.github.io/matteolc/)
