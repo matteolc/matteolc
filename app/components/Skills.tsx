@@ -1,6 +1,6 @@
 import { SkillCategory, skills } from '~/data/skills'
-import { SkillCard } from './cards/SkillCard'
 import { SkillBadge } from './badges/SkillBadge'
+import { SkillCard } from './cards/SkillCard'
 
 const Skills = () => {
   const skillsByCategory = skills.items.reduce(
@@ -22,63 +22,62 @@ const Skills = () => {
     },
   )
   return (
-    <div className="px-7 py-6">
-      {Object.keys(skillsByCategory).map((category, index) => (
-        <div key={index} className="pb-8">
-          <h3 className="text-base font-thin leading-6 text-gray-900/80">
+    <aside className="self-start rounded-2xl border border-outline-variant bg-surface-container-lowest p-6 shadow-sm lg:sticky lg:top-6">
+      {Object.keys(skillsByCategory).map(category => (
+        <div key={category} className="pb-8">
+          <h3 className="text-sm font-semibold uppercase tracking-wide text-on-surface-variant">
             {category}
           </h3>
           <ul>
             {skills.items
               .filter(item => item.category === category)
-              .map((item, index) => (
-                <li key={index} className="my-2">
+              .map(item => (
+                <li key={item.skill} className="my-2">
                   <SkillCard {...item} />
                 </li>
               ))}
           </ul>
         </div>
       ))}
-      <h3 className="mb-2 text-base font-thin leading-6 text-gray-900/80">
+      <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-on-surface-variant">
         Soft-skills
       </h3>
       <ul className="mb-8 flex flex-wrap gap-x-2 gap-y-1">
         {[
-          'Leadership',
-          'Communication',
-          'Problem-solving',
-          'Mentorship',
-        ].map((skill, index) => (
-          <li key={index}>
+          'Clear writing',
+          'Debugging under pressure',
+          'Pairing & mentoring',
+        ].map(skill => (
+          <li key={skill}>
             <SkillBadge skill={skill} />
           </li>
         ))}
       </ul>
-      <h3 className="mb-2 text-base font-thin leading-6 text-gray-900/80">
+      <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-on-surface-variant">
         Interests
       </h3>
       <ul className="mb-8 flex flex-wrap gap-x-2 gap-y-1">
         {[
-          'Musicianship',
-          'Culinary Arts',
-          'Motorsport Enthusiast',
-          'Horticulture',
-          'Creative Building',
-          'Family Engagement',
-          'Nature Enthusiast',
-        ].map((skill, index) => (
-          <li key={index}>
+          'Music',
+          'Cooking',
+          'Motorsport',
+          'Gardening',
+          'Making things',
+          'Family',
+          'Outdoors',
+        ].map(skill => (
+          <li key={skill}>
             <SkillBadge skill={skill} />
           </li>
         ))}
       </ul>
-      <h3 className="mb-2 text-base font-thin leading-6 text-gray-900/80">
+      <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-on-surface-variant">
         Volunteer work
       </h3>
       <div className="flex flex-row gap-6">
         <div>
           <svg
-            className="h-8 w-8 text-blue-600"
+            className="h-8 w-8 text-primary"
             focusable="false"
             viewBox="0 0 24 24"
             aria-hidden="true"
@@ -89,13 +88,13 @@ const Skills = () => {
           </svg>
         </div>
         <div>
-          <h4 className="text-lg font-semibold text-gray-900">Archelon</h4>
-          <p className="text-sm text-gray-500">
+          <h4 className="text-lg font-semibold text-on-surface">Archelon</h4>
+          <p className="text-sm text-on-surface-variant">
             The Sea Turtle protection society of Greece (1999-2005)
           </p>
         </div>
       </div>
-    </div>
+    </aside>
   )
 }
 

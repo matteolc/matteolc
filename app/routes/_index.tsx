@@ -13,15 +13,17 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <>
-      <Heading />
-      <div className="grid grid-cols-1 gap-0 sm:pl-24 md:pr-24 lg:grid-cols-4 lg:gap-4 lg:pr-0">
-        <Skills />
-        <div className="col-span-3 ">
-          <WorkExperience />
-          <Education />
+    <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <div className="flex flex-col gap-6 lg:gap-8">
+        <Heading />
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-4 lg:gap-8">
+          <Skills />
+          <div className="flex flex-col gap-6 lg:col-span-3 lg:gap-8">
+            <WorkExperience />
+            <Education />
+          </div>
         </div>
       </div>
-    </>
+    </main>
   )
 }

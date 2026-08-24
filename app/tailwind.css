@@ -1,3 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+@plugin '@palettebro/tailwind' {
+  primary: #145a5a;
+  variant: static;
+  preset: depth;
+  reverseLightDarkShades: true;
+  colorShadesPreset: tailwind;
+  frameworkCompatibility: shadcn;
+}
+
+@theme {
+  --font-sans:
+    'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-display:
+    'DM Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}

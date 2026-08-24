@@ -3,12 +3,12 @@ const education = {
   experiences: [
     {
       position: 'Internship',
-      company: 'STMicrolectronics',
+      company: 'STMicroelectronics',
       location: 'Milan, IT',
       from: '2002',
       to: '2003',
       description:
-        'Developed an HDL synchronization algorithm for Digital Video Broadcasting signals, contributing to advanced broadcasting technology.',
+        'Developed an HDL synchronization algorithm for Digital Video Broadcasting signals.',
     },
     {
       position: 'Telecommunication Engineering, M.Sc',

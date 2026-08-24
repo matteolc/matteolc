@@ -23,40 +23,47 @@ const WorkExperienceCard = ({
   skills?: string[]
 }) => {
   return (
-    <div className="mb-12">
+    <article className="mb-10 border-b border-outline-variant pb-10 last:mb-0 last:border-b-0 last:pb-0">
       <YearBadge from={from} to={to} current={current ?? false} />
       <div className="flex justify-between pt-4">
         <div>
-          <h4 className="py-2 text-3xl font-semibold leading-6 text-gray-900">
+          <h4 className="py-1 text-2xl font-semibold leading-tight text-on-surface md:text-3xl">
             {position}
           </h4>
-          {href ? <a className="text-blue-600 hover:underline underline-offset-2" href={href}>{company}</a> : <p className="mt-1 text-lg text-gray-500">{company}</p>}
+          {href ? (
+            <a
+              className="text-primary underline-offset-2 hover:underline"
+              href={href}
+            >
+              {company}
+            </a>
+          ) : (
+            <p className="mt-1 text-lg text-on-surface-variant">{company}</p>
+          )}
         </div>
       </div>
       {description && (
-        <p className="text-md my-2 max-w-4xl text-gray-500">{description}</p>
+        <p className="my-2 max-w-4xl text-on-surface-variant">{description}</p>
       )}
       {items && (
-        <ul className="mb-4 mt-2 list-disc pl-5">
-          {items.map((item, index) => (
-            <li key={index} className="text-md my-[1px]">
-              {item}
-            </li>
+        <ul className="mb-4 mt-2 list-disc space-y-1 pl-5 text-on-surface">
+          {items.map(item => (
+            <li key={item}>{item}</li>
           ))}
         </ul>
       )}
       {skills && (
         <div className="max-w-md">
           <ul className="flex flex-wrap gap-x-2 gap-y-1">
-            {skills.map((skill, index) => (
-              <li key={index}>
+            {skills.map(skill => (
+              <li key={skill}>
                 <SkillBadge skill={skill} />
               </li>
             ))}
           </ul>
         </div>
       )}
-    </div>
+    </article>
   )
 }
 

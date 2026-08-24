@@ -1,4 +1,4 @@
-import { LinksFunction } from '@remix-run/node'
+import type { LinksFunction } from '@remix-run/node'
 import './tailwind.css'
 import {
   Links,
@@ -15,16 +15,43 @@ export const links: LinksFunction = () => [
   },
 ]
 
+const themeInitScript = `
+(() => {
+  try {
+    const match = document.cookie.match(/(?:^|; )matteolc-theme=(light|dark)(?:;|$)/);
+    let theme = match ? match[1] : null;
+    if (!theme) {
+      const stored = localStorage.getItem('matteolc-theme');
+      if (stored === 'light' || stored === 'dark') {
+        theme = stored;
+        document.cookie = 'matteolc-theme=' + theme + '; path=/; max-age=31536000; SameSite=Lax';
+      }
+    }
+    if (!theme) {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light';
+    }
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+  } catch {}
+})();
+`
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <script
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: static theme FOUC prevention script
+          dangerouslySetInnerHTML={{ __html: themeInitScript }}
+        />
       </head>
-      <body className="h-full max-h-full min-h-screen max-w-full">
+      <body className="min-h-screen bg-background text-on-background antialiased">
         {children}
         <ScrollRestoration />
         <Scripts />
@@ -38,5 +65,5 @@ export default function App() {
 }
 
 export function HydrateFallback() {
-  return <p>Loading...</p>
+  return <p className="p-6 text-on-surface-variant">Loading...</p>
 }

@@ -8,7 +8,7 @@ const YearBadge = ({
   current: boolean
 }) => {
   return (
-    <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 font-display text-sm font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+    <span className="inline-flex items-center gap-x-1.5 rounded-md bg-primary-container px-2 py-1 font-display text-sm font-medium text-on-primary-container ring-1 ring-inset ring-outline-variant">
       {from} - {current ? 'Present' : to}
     </span>
   )

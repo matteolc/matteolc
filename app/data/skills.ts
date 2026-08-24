@@ -140,4 +140,4 @@ const skills = {
   ],
 }
 
-export { skills, SkillCategory }
+export { SkillCategory, skills }

@@ -3,16 +3,19 @@ import { WorkExperienceCard } from './cards/WorkExperienceCard'
 
 const WorkExperience = () => {
   return (
-    <div className="p-6">
+    <section className="rounded-2xl border border-outline-variant bg-surface-container-lowest p-6 shadow-sm">
       <div className="pb-5">
-        <h3 className="text-base font-thin leading-6 text-gray-900/80">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-on-surface-variant">
           {workExperience.title}
         </h3>
       </div>
-      {workExperience.experiences.map((experience, index) => (
-        <WorkExperienceCard key={index} {...experience} />
+      {workExperience.experiences.map(experience => (
+        <WorkExperienceCard
+          key={`${experience.company}-${experience.position}-${experience.from}`}
+          {...experience}
+        />
       ))}
-    </div>
+    </section>
   )
 }
 

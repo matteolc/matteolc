@@ -7,7 +7,7 @@ const SkillLevel = ({ level }: { level: number }) => {
         <div
           key={rating}
           className={cn(
-            level > rating ? 'bg-black' : 'bg-gray-200',
+            level > rating ? 'bg-primary' : 'bg-surface-container-high',
             'h-4 w-4 rounded-full',
           )}
           aria-hidden="true"
@@ -27,12 +27,12 @@ const SkillCard = ({
   level: number
 }) => {
   return (
-    <div className="flew-row flex justify-between">
+    <div className="flex flex-row items-start justify-between gap-3 rounded-lg px-2 py-1">
       <div className="flex flex-col justify-between">
-        <span>{skill}</span>
-        <span className="text-sm font-light text-gray-400">Since {since}</span>
+        <span className="font-medium text-on-surface">{skill}</span>
+        <span className="text-sm text-on-surface-variant">Since {since}</span>
       </div>
-      <div className="mt-2">
+      <div className="mt-1">
         <SkillLevel level={level} />
       </div>
     </div>
