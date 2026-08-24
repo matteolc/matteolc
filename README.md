@@ -1,26 +1,27 @@
 # Matteo La Cognata
 
-Product engineer at [Nearform](https://www.nearform.com), based in Milan. I deliver products end to end — design, frontend, APIs, and production operations — and I love building products people use.
+Product engineer at [Nearform](https://www.nearform.com), Milan. I ship products end to end — design, frontend, APIs, production — and love building things people use.
 
-I created [Palettebro](https://palettebro.com), a color palette generator for the web, and publish its open-source packages under [`@palettebro`](https://github.com/matteolc/palettebro-packages).
+Creator of [Palettebro](https://palettebro.com) and the [`@palettebro`](https://github.com/matteolc/palettebro-packages) open-source packages.
 
 ## Focus
 
-- **Product engineering**: owning product delivery from design to frontend to backend APIs in full-stack web apps
-- **Backend and operations**: designing APIs, working with Postgres and production databases, and building monitoring and observability into production systems
-- **Design systems**: color tokens, Tailwind integration, and tooling designers and developers share
-- **Applied AI**: retrieval-augmented generation (RAG) prototypes with Postgres and modern React stacks
+- **Product engineering**: own delivery from design through frontend to backend APIs
+- **Backend & production**: Postgres, production databases, monitoring, and observability
+- **Ruby on Rails**: extensive experience building APIs and full-stack products (currently focused on TypeScript/Node)
+- **Design systems**: color tokens, Tailwind, tooling designers and developers share
+- **Applied AI**: RAG prototypes with Postgres and modern React stacks
 
 ## Selected work
 
-- [Palettebro](https://palettebro.com): web app for generating and refining color palettes
+- [Palettebro](https://palettebro.com): color palette generator for the web
 - [palettebro-packages](https://github.com/matteolc/palettebro-packages): `@palettebro/generator` and `@palettebro/tailwind`
 - [nextjs-rag](https://github.com/matteolc/nextjs-rag): Next.js RAG demo with PostgreSQL
-- [react-router-rag](https://github.com/matteolc/react-router-rag): React Router RAG app with document ingest, embeddings, and semantic search
+- [react-router-rag](https://github.com/matteolc/react-router-rag): document ingest, embeddings, semantic search
 
 ## Earlier projects
 
-These repositories are archived or no longer maintained:
+Archived or no longer maintained:
 
 - [rails-api-template](https://github.com/matteolc/rails-api-template): Rails 5 JSON API starter with JWT, Rolify, and Pundit
 - [GTFS-Helpers](https://github.com/matteolc/GTFS-Helpers): import GTFS transit feeds into MySQL or SQLite
@@ -29,8 +30,8 @@ These repositories are archived or no longer maintained:
 
 ## Stack
 
-- **Languages**: TypeScript, Ruby
-- **Frameworks**: React, Node.js, Next.js, Remix, React Router, Ruby on Rails
+- **Primary**: TypeScript, React, Node.js, Next.js, React Router, Postgres
+- **Background**: Ruby, Ruby on Rails (extensive; less day-to-day now)
 - **Design**: Figma, Tailwind CSS, Miro
 
 ## Links
