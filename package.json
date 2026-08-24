@@ -15,8 +15,8 @@
   "dependencies": {
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.3",
-    "@palettebro/generator": "file:../palettebro/packages/generator",
-    "@palettebro/tailwind": "file:../palettebro/packages/tailwind",
+    "@palettebro/generator": "^4.0.0",
+    "@palettebro/tailwind": "^4.0.0",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
     "clsx": "^2.1.1",
