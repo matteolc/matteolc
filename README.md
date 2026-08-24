@@ -1,6 +1,6 @@
 # Matteo La Cognata
 
-Product engineer at [Nearform](https://www.nearform.com), Milan. I ship products end to end — design, frontend, APIs, production — and love building things people use.
+Senior software engineer at [Nearform](https://www.nearform.com), Milan. I ship products end to end — design, frontend, APIs, production — and love building things people use.
 
 Creator of [Palettebro](https://palettebro.com) and the [`@palettebro`](https://github.com/matteolc/palettebro-packages) open-source packages.
 
