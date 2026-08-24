@@ -1,12 +1,13 @@
 # Matteo La Cognata
 
-Software engineer at [Nearform](https://www.nearform.com), based in Milan. I build frontend products and design-system tooling in TypeScript.
+Software engineer at [Nearform](https://www.nearform.com), based in Milan. I build full-stack products, frontend experiences, and design-system tooling in TypeScript.
 
 I created [Palettebro](https://palettebro.com), a color palette generator for the web, and publish its open-source packages under [`@palettebro`](https://github.com/matteolc/palettebro-packages).
 
 ## Focus
 
-- **Product engineering**: shipping end-to-end web apps with React, Next.js, and React Router
+- **Product engineering**: shipping end-to-end full-stack products with React, Next.js, React Router, and backend APIs
+- **Backend and operations**: designing APIs, working with Postgres and production databases, and building monitoring and observability into production systems
 - **Design systems**: color tokens, Tailwind integration, and tooling designers and developers share
 - **Applied AI**: retrieval-augmented generation (RAG) prototypes with Postgres and modern React stacks
 
