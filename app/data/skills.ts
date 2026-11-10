@@ -1,11 +1,11 @@
 enum SkillCategory {
   programming = 'Programming',
   frameworks = 'Frameworks',
-  operations = 'Operations',
+  operations = 'DevOps',
   databases = 'Databases',
   projectManagement = 'Project Management',
   testing = 'Testing',
-  emergingTechnologies = 'Emerging Technologies',
+  emergingTechnologies = 'AI',
 }
 
 const skills = {
@@ -36,8 +36,44 @@ const skills = {
       category: SkillCategory.programming,
     },
     {
+      skill: 'Node.js',
+      since: '2018',
+      level: 4,
+      category: SkillCategory.programming,
+    },
+    {
+      skill: 'Python',
+      since: '',
+      level: 1,
+      category: SkillCategory.programming,
+    },
+    {
       skill: 'React',
       since: '2012',
+      level: 4,
+      category: SkillCategory.frameworks,
+    },
+    {
+      skill: 'Next.js',
+      since: '2018',
+      level: 4,
+      category: SkillCategory.frameworks,
+    },
+    {
+      skill: 'Fastify',
+      since: '2026',
+      level: 4,
+      category: SkillCategory.frameworks,
+    },
+    {
+      skill: 'Tailwind CSS',
+      since: '2024',
+      level: 4,
+      category: SkillCategory.frameworks,
+    },
+    {
+      skill: 'OpenAPI',
+      since: '2024',
       level: 4,
       category: SkillCategory.frameworks,
     },
@@ -49,6 +85,12 @@ const skills = {
     },
     {
       skill: 'Remix.run',
+      since: '2022',
+      level: 3,
+      category: SkillCategory.frameworks,
+    },
+    {
+      skill: 'React Router',
       since: '2022',
       level: 3,
       category: SkillCategory.frameworks,
@@ -72,9 +114,45 @@ const skills = {
       category: SkillCategory.operations,
     },
     {
+      skill: 'Kubernetes',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.operations,
+    },
+    {
+      skill: 'OpenShift',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.operations,
+    },
+    {
+      skill: 'ArgoCD',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.operations,
+    },
+    {
+      skill: 'AWS',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.operations,
+    },
+    {
       skill: 'PostgreSQL',
       since: '2012',
       level: 4,
+      category: SkillCategory.databases,
+    },
+    {
+      skill: 'Supabase',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.databases,
+    },
+    {
+      skill: 'Pinecone',
+      since: '2024',
+      level: 3,
       category: SkillCategory.databases,
     },
     {
@@ -86,7 +164,7 @@ const skills = {
     {
       skill: 'Redis',
       since: '2012',
-      level: 4,
+      level: 3,
       category: SkillCategory.databases,
     },
     {
@@ -96,9 +174,9 @@ const skills = {
       category: SkillCategory.databases,
     },
     {
-      skill: 'MSSQL',
-      since: '2006-2009',
-      level: 4,
+      skill: 'SQL Server',
+      since: '2006',
+      level: 3,
       category: SkillCategory.databases,
     },
     {
@@ -126,15 +204,51 @@ const skills = {
       category: SkillCategory.testing,
     },
     {
+      skill: 'Vitest',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.testing,
+    },
+    {
       skill: 'Minitest & RSpec (Ruby)',
       since: '2012',
       level: 4,
       category: SkillCategory.testing,
     },
     {
-      skill: 'Machine Learning',
-      since: '2023',
-      level: 1,
+      skill: 'AI-assisted development',
+      since: '2026',
+      level: 4,
+      category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'Agent workflows',
+      since: '2026',
+      level: 3,
+      category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'Cursor',
+      since: '2026',
+      level: 4,
+      category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'Claude Code',
+      since: '2026',
+      level: 4,
+      category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'BMAD',
+      since: '2026',
+      level: 3,
+      category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'SpecKit',
+      since: '2026',
+      level: 3,
       category: SkillCategory.emergingTechnologies,
     },
   ],

@@ -53,7 +53,7 @@ const WorkExperienceCard = ({
         </ul>
       )}
       {skills && (
-        <div className="max-w-md">
+        <div>
           <ul className="flex flex-wrap gap-x-2 gap-y-1">
             {skills.map(skill => (
               <li key={skill}>

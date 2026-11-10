@@ -3,71 +3,98 @@ Senior Software Engineer
 
 matteo.lacognata@gmail.com
 https://www.linkedin.com/in/matteolc
-Milan
+https://github.com/matteolc
+https://www.palettebro.com/
+Italy
+
+
+Summary
+======
+Full-stack engineer at Nearform, based in Italy, in tech since 2003. I design and ship web products end to end: the interface, authentication, and the APIs behind them. I also build design systems, including Palettebro, and I use AI-assisted development in day-to-day delivery. Italian is my mother tongue; I speak and write English at a professional level.
+
 
 Experience
 ======
 Senior Software Engineer
+Nearform
+10/2024 - Present
+Italy (Remote)
+Full-stack product work across web applications, APIs, and production delivery.
+ - Design and ship web products from the interface through the APIs to production
+ - Work on authentication and sessions for applications used by large user bases
+ - Consolidate frontends and carry framework upgrades through to release
+ - Care for security, reliability, and the way the team ships
+ - Pick up production support and see issues through
+ - Use AI-assisted development every day, including agent workflows for team delivery
+ - TypeScript, React, Next.js, Node.js, PostgreSQL, Tailwind CSS, Kubernetes, Cursor, Claude Code, BMAD, SpecKit
+
+Senior Software Engineer
 Carta
 09/2022 - 06/2024
 Milan (Remote)
- - Mentored junior team members, ensuring timely completion of projects by providing guidance and support
- - Reduced technical debt by addressing issues raised during engineering retrospectives
- - Enhanced team engagement by organizing quarterly in-person events, resulting in increased team satisfaction
- - Improved feature specifications and user stories by collaborating with design and product teams, leading to a reduction in development time
- - Architected and implemented scalable backend solutions, improving data processing efficiency
- - Collaborated with cross-functional teams to define and prioritize technical initiatives, aligning them with business goals
+ - Mentored engineers through design reviews and delivery planning to keep projects moving predictably
+ - Reduced technical debt by driving retrospective action items into concrete engineering improvements
+ - Organized quarterly in-person working sessions to align the team on delivery priorities
+ - Partnered with product and design to refine user stories and ship clearer, faster iterations
+ - Designed and delivered scalable backend services to improve data processing reliability
+ - Prioritized technical initiatives against product goals and operational constraints
+ - Ruby, TypeScript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog
 
 Senior Software Engineer
 Capdesk
 05/2021 - 09/2022
 Milan (Remote)
- - Achieved an increase in feature delivery speed by implementing and releasing new features daily within the Equity Plans squad
- - Increased sprint efficiency by grooming features for Jira sprints and facilitating ideation sessions
- - Improved application performance by migrating frontend components from Angular to React
- - Reduced production incidents by managing production issues and providing timely hotfixes
- - Enhanced feature development by authoring technical discovery documents, improving QA process efficiency
- - Developed and maintained documentation for technical processes, improving knowledge transfer and onboarding efficiency
- - Ruby, Typescript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog
+ - Shipped product improvements continuously within the Equity Plans squad with short release cycles
+ - Led backlog grooming and metric-driven ideation to improve sprint focus and delivery
+ - Modernized frontend architecture by migrating selected components from Angular to React
+ - Owned on-call production issues and shipped hotfixes to limit customer impact
+ - Wrote technical discovery documents for complex features to de-risk implementation
+ - Improved onboarding and knowledge transfer through practical engineering documentation
+ - Ruby, TypeScript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog
 
 Senior Software Developer
 Fabbricadigitale
 01/2018 - 05/2021
 Milan (Remote)
- - Developed Typescript applications for JSON API micro-services, increasing development efficiency
- - Mentored junior developers, improving code quality and adherence to best practices
- - Improved development efficiency by introducing Docker to replace Virtual Machines
- - Enhanced CI/CD processes by establishing Git pipelines and automation tools, reducing deployment time
- - Improved system monitoring by implementing logging and observability guidelines, reducing system downtime
- - Resolved production incidents within SLA targets, ensuring 99.9% application uptime
+ - Built TypeScript applications and JSON API microservices from scratch for new product initiatives
+ - Mentored junior developers and raised code quality through reviews and daily pairing
+ - Introduced Docker-based workflows to replace VM-heavy local setups
+ - Set up CI/CD pipelines, automation checks, and quality gates to streamline deployments
+ - Established logging and observability practices to improve production visibility
+ - Resolved production incidents within SLA targets
+ - Ruby, JavaScript, TypeScript, React, Next.js, Express, Rails, Docker, PostgreSQL, Git/CI-CD
 
 Freelance Full-Stack Developer
 Self-employed
 01/2012 - 01/2018
 Milan
- - Developed Ruby-on-Rails applications and Ruby JSON APIs with React frontends, achieving high client satisfaction
- - Created automated invoicing systems, reducing invoicing errors and processing time
- - Built multi-level reseller applications to increase multi-channel client sales
- - Developed softswitches for wholesale voice operators, decreasing operational costs and improving efficiency
+ - Delivered Ruby on Rails applications and JSON APIs with React frontends for multiple clients
+ - Built automated invoicing workflows that reduced processing errors and manual effort
+ - Developed multi-level reseller platforms to support multi-channel sales operations
+ - Implemented softswitch solutions for wholesale voice operators to improve operational efficiency
 
 Voice Network Technical Officer
 Soleto SPA
 01/2009 - 01/2012
 Milan
+ - Planned and deployed VoIP services across proprietary infrastructure
+ - Improved service reliability by implementing fiber optic and Wi-Fi network solutions
 
 Technical Support Engineer
 Digitalk
-01/2007 - 01/2009
-Rome/Milton Keyenes (UK)
+01/2006 - 01/2009
+Rome/Milton Keynes (UK)
+ - Resolved support tickets within SLA targets while maintaining strong customer satisfaction
+ - Supported customer deployments and operations of the Digitalk Softswitch platform
 
 Voice Network Engineer
 Intrastet SA
-01/2006 - 01/2007
+01/2005 - 01/2006
 Greece
 
 Embedded Software Developer
 ISD SA
-01/2005 - 12/2005
+01/2003 - 12/2005
 Greece
 
 
@@ -77,97 +104,64 @@ M.Sc. in Telecommunication Engineering
 Politecnico di Milano
 01/1998 - 01/2003
 Milan
- - STMicroelectronics - 2002 - 2003
- - Developed an HDL synchronization algorithm for Digital Video
- - Broadcasting signals, contributing to advanced broadcasting technology
-
-
-Summary
-======
-Experienced and detail-oriented Senior Software Engineer with over 10 years of expertise in full-stack development. Demonstrated ability to design and implement scalable and reliable software solutions, mentor team members, and enhance user experiences. Proficient in transforming user requirements into seamless user journeys. Advocate for fostering a supportive tech environment. Fluent in English and Italian, with working knowledge of Portuguese, Spanish, and Greek.
+ - STMicroelectronics internship, 2002-2003
+ - Developed an HDL synchronization algorithm for Digital Video Broadcasting signals
 
 
 Languages
 ======
 Italian
-
 English
 
 
 Skills
 ======
- - Rails
- - Ruby
- - Typescript
- - CI/CD
- - Github
- - Git
- - Gitlab
- - Angular
- - API
- - Datadog
- - Docker
- - Elastic
- - Experience Design
- - Heroku
- - Javascript
- - Jira
- - Kibana
- - Micro-services
- - Mssql
- - Next.js
- - Postgresql
- - Redis
- - System Monitoring
- - Unix
- - VMWare
- - VOIP
- - GraphQL
- - Stripe
- - Shopify
- - Remix.run
- - RSpec
- - Minitest
- - Jest
- - Cypress
- - Scrum
- - Kanban
- - CMS
- - NodeJS
- - Twilio
- - Next.js
+TypeScript
+JavaScript
+Node.js
+Python (beginner)
+React
+Next.js
+Fastify
+Tailwind CSS
+OpenAPI
+PostgreSQL
+Supabase
+Pinecone
+OIDC
+Kubernetes
+OpenShift
+ArgoCD
+AWS
+AI-assisted development
+Agent workflows
+Cursor
+Claude Code
+BMAD
+SpecKit
+Ruby
+Rails
+Remix
+React Router
+Vitest
+Docker
+Git
+CI/CD
+Redis
+Elasticsearch
 
 
 Passions
 ======
-Culinary Arts
-
+Music
+Cooking
 Motorsport
-
-Horticulture
-
-Creative Building
-
-Nature Enthusiast
+Car modeling
+Gardening
+Electronics and microcontrollers
 
 
 Volunteering
 ======
-The Sea Turtle Protection Society of Greece
-The Sea Turtle Protection Society of Greece
+ARCHELON, The Sea Turtle Protection Society of Greece
 01/1999 - 12/2005
-
-
-Strengths
-======
-Technical Leadership
-Proven ability to lead technical teams in designing and implementing scalable software solutions
-
-Mentorship and Support
-Experienced in mentoring junior team members, ensuring timely project completion through guidance and support
-
-Collaboration Skills
-Strong collaboration with cross-functional teams to define and prioritize technical initiatives aligned with business goals
-
-Problem-Solving
-Adept at addressing technical challenges to enhance system efficiency and optimize development processes

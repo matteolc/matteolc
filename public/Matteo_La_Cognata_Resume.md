@@ -1,102 +1,111 @@
 # Ing. Matteo La Cognata
 ## **Senior Software Engineer**
-[LinkedIn](https://www.linkedin.com/in/matteolc/) | [GitHub](https://github.com/matteolc)
+[LinkedIn](https://www.linkedin.com/in/matteolc/) | [GitHub](https://github.com/matteolc) | [Palettebro](https://www.palettebro.com/)
 matteo.lacognata@gmail.com
 
 ---
 
 ### Professional Summary
 
-Highly experienced and detail-oriented Senior Software Engineer with over 10 years of expertise in full-stack development. Demonstrated ability to design and implement scalable software solutions, mentor team members, and enhance user experiences. Proficient in transforming user requirements into seamless user journeys. Advocate for fostering a supportive tech environment. Fluent in English and Italian, with working knowledge of Portuguese, Spanish, and Greek.
+Full-stack engineer at Nearform, based in Italy, in tech since 2003. I design and ship web products end to end: the interface, authentication, and the APIs behind them. I also build design systems, including Palettebro, and I use AI-assisted development in day-to-day delivery. Italian is my mother tongue; I speak and write English at a professional level.
 
 ---
 
 ### Experience
 
 **Senior Software Engineer**
+*[Nearform](https://www.nearform.com/)*
+*Oct 2024 - Present*
+
+Full-stack product work across web applications, APIs, and production delivery.
+
+- Design and ship web products from the interface through the APIs to production.
+- Work on authentication and sessions for applications used by large user bases.
+- Consolidate frontends and carry framework upgrades through to release.
+- Care for security, reliability, and the way the team ships.
+- Pick up production support and see issues through.
+- Use AI-assisted development every day, including agent workflows for team delivery.
+
+*Technologies: TypeScript, React, Next.js, Node.js, PostgreSQL, Tailwind CSS, Kubernetes, Cursor, Claude Code, BMAD, SpecKit*
+
+**Senior Software Engineer**
 *[Carta](https://carta.com/)*
 *Sep 2022 - Jun 2024*
 
-- Mentored junior team members, ensuring timely completion of projects by providing guidance and support.
-- Reduced technical debt as measured by code quality metrics by addressing issues raised during engineering retrospectives.
-- Enhanced team engagement by organizing quarterly in-person events, resulting in a notable increase in team satisfaction.
-- Improved feature specifications and user stories by collaborating with design and product teams, leading to a reduction in development time.
-- Architected and implemented scalable backend solutions, resulting in improved data processing efficiency.
-- Collaborated with cross-functional teams to define and prioritize technical initiatives, aligning them with business goals.
+- Mentored engineers through design reviews and delivery planning to keep projects moving predictably.
+- Reduced technical debt by driving retrospective action items into concrete engineering improvements.
+- Organized quarterly in-person working sessions to align the team on delivery priorities.
+- Partnered with product and design to refine user stories and ship clearer, faster iterations.
+- Designed and delivered scalable backend services to improve data processing reliability.
+- Prioritized technical initiatives against product goals and operational constraints.
+
+*Technologies: Ruby, TypeScript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog*
 
 **Senior Software Engineer**
 *[Capdesk](https://www.capdesk.com/)*
 *May 2021 - Sep 2022*
 
-- Achieved an increase in feature delivery speed by implementing and releasing new features daily within the Equity Plans squad.
-- Increased sprint efficiency by grooming features for Jira sprints and facilitating ideation sessions targeting the North Star metric.
-- Improved application performance by migrating frontend components from Angular to React.
-- Reduced production incidents by managing production issues and providing timely hotfixes on a rotating basis.
-- Enhanced feature development by authoring technical discovery documents, resulting in an improvement in QA process efficiency.
-- Developed and maintained documentation for technical processes, improving knowledge transfer and onboarding efficiency.
+- Shipped product improvements continuously within the Equity Plans squad with short release cycles.
+- Led backlog grooming and metric-driven ideation to improve sprint focus and delivery.
+- Modernized frontend architecture by migrating selected components from Angular to React.
+- Owned on-call production issues and shipped hotfixes to limit customer impact.
+- Wrote technical discovery documents for complex features to de-risk implementation.
+- Improved onboarding and knowledge transfer through practical engineering documentation.
 
-*Technologies: Ruby, Typescript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog*
+*Technologies: Ruby, TypeScript, React, Angular, Rails, PostgreSQL, Git/CI-CD, Heroku, Datadog*
 
 **Senior Software Developer**
 *[Fabbricadigitale](https://www.fabbricadigitale.it/)*
 *2018 - May 2021*
 
-- Developed Typescript applications for JSON API micro-services from scratch, resulting in an increase in development efficiency.
-- Mentored junior developers, leading to an improvement in code quality and adherence to best practices.
-- Improved development efficiency by introducing Docker to replace Virtual Machines.
-- Enhanced CI/CD processes by establishing Git pipelines, automation tools, and quality gates, resulting in a reduction in deployment time.
-- Improved system monitoring by implementing logging and observability guidelines, leading to a reduction in system downtime.
-- Resolved production incidents within SLA targets, ensuring 99.9% application uptime.
+- Built TypeScript applications and JSON API microservices from scratch for new product initiatives.
+- Mentored junior developers and raised code quality through reviews and daily pairing.
+- Introduced Docker-based workflows to replace VM-heavy local setups.
+- Set up CI/CD pipelines, automation checks, and quality gates to streamline deployments.
+- Established logging and observability practices to improve production visibility.
+- Resolved production incidents within SLA targets.
 
-*Technologies: Ruby, Javascript, Typescript, React, Next.js, Express, Rails, FreeSWITCH, Docker, Kibana, Elastic, TimescaleDB, PostgreSQL, Sysadmin, VoIP, Git/CI-CD*
+*Technologies: Ruby, JavaScript, TypeScript, React, Next.js, Express, Rails, FreeSWITCH, Docker, Kibana, Elastic, TimescaleDB, PostgreSQL, Git/CI-CD*
 
 **Freelance Full-Stack Developer**
 *Milan, IT*
 *2012 – 2018*
 
-- Developed Ruby-on-Rails applications and Ruby JSON APIs with React frontends, achieving a high client satisfaction.
-- Created automated invoicing systems, resulting in a reduction in invoicing errors and a decrease in processing time.
-- Built multi-level reseller applications to increase multi-channel client sales.
-- Developed softswitches for wholesale voice operators, decreasing operational costs and improving operational efficiency.
+- Delivered Ruby on Rails applications and JSON APIs with React frontends for multiple clients.
+- Built automated invoicing workflows that reduced processing errors and manual effort.
+- Developed multi-level reseller platforms to support multi-channel sales operations.
+- Implemented softswitch solutions for wholesale voice operators to improve operational efficiency.
 
-*Technologies: Javascript, React, Rails, FreeSWITCH, Docker, PostgreSQL, VoIP, Sysadmin, Git/CI-CD, VMWare*
+*Technologies: JavaScript, React, Rails, FreeSWITCH, Docker, PostgreSQL, Git/CI-CD*
 
 **Voice Network Technical Officer**
 *Soleto SPA*
 *2009 – 2012*
 
-- Planned and deployed VoIP services, resulting in an increase in network efficiency and a reduction in operational costs.
-- Enhanced communication infrastructure by implementing proprietary Fiber Optic and Wi-Fi networks, improving service reliability.
-
-*Technologies: Digitalk, Squire, VoIP, SS7, Wi-Fi, Sysadmin*
+- Planned and deployed VoIP services across proprietary infrastructure.
+- Improved service reliability by implementing fiber optic and Wi-Fi network solutions.
 
 **Technical Support Engineer**
 *[Digitalk](https://www.digitalk.com/)*
-*2007 – 2009*
+*2006 – 2009*
 
-- Resolved 99% of support tickets within SLA targets, ensuring high customer satisfaction.
-- Assisted in deploying and operating the Digitalk Softswitch, contributing to an increase in customer deployments.
-- Improved bug resolution time by identifying and resolving issues in collaboration with the development team.
-- Enhanced user experience by contributing to internal and customer-facing documentation, leading to a reduction in support queries.
-
-*Technologies: MSSQL, VoIP, SS7/ISDN, Sysadmin*
+- Resolved support tickets within SLA targets while maintaining strong customer satisfaction.
+- Supported customer deployments and operations of the Digitalk Softswitch platform.
+- Collaborated with development teams to isolate and resolve product defects faster.
+- Contributed internal and customer-facing documentation to reduce repeat support queries.
 
 **Voice Network Engineer**
 *Intrastet SA, Greece*
-*2006 – 2007*
+*2005 – 2006*
 
-- Planned and deployed VoIP services on proprietary Wi-Fi networks, resulting in an increase in service coverage and improved reliability.
-- Upgraded and operated Wi-Fi and Satellite networks, troubleshooting customer VoIP issues efficiently, leading to a reduction in customer complaints.
-
-*Technologies: Wi-Fi, VoIP, Mediatrix, Sysadmin*
+- Planned and deployed VoIP services over proprietary Wi-Fi networks.
+- Operated and upgraded Wi-Fi and satellite networks while troubleshooting customer VoIP issues.
 
 **Embedded Software Developer**
 *ISD SA, Greece*
-*2005*
+*2003 – 2005*
 
-- Developed HDL algorithms and System-on-Chip sub-systems for wireless Home-Theater set-top boxes, enhancing product functionality.
-
-*Technologies: HDL, FPGA, Wi-Fi*
+- Developed HDL algorithms and SoC subsystems for wireless home-theater set-top boxes.
 
 ---
 
@@ -110,7 +119,7 @@ Highly experienced and detail-oriented Senior Software Engineer with over 10 yea
 *STMicroelectronics*
 *2002 – 2003*
 
-- Developed an HDL synchronization algorithm for Digital Video Broadcasting signals, contributing to advanced broadcasting technology.
+- Developed an HDL synchronization algorithm for Digital Video Broadcasting signals.
 
 ---
 
@@ -124,40 +133,60 @@ Highly experienced and detail-oriented Senior Software Engineer with over 10 yea
 
 ### Skills
 
-- Full-stack development (Ruby, Rails, React, Angular)
-- Frontend and backend development
-- Micro-services architecture
-- CI/CD pipelines (Git, GitHub, GitLab)
-- Docker, Heroku
-- PostgreSQL, TimescaleDB
-- VoIP systems (FreeSWITCH, SS7, Digitalk)
-- System administration (Unix, Microsoft)
-- Mentorship and team leadership
-- User experience design and implementation
-- Incident management and production support
-
 **Programming**
 
-- **Ruby** (Since 2012, Level 4)
-- **JavaScript** (Since 2012, Level 4)
 - **TypeScript** (Since 2018, Level 4)
+- **JavaScript** (Since 2012, Level 4)
+- **Node.js** (Since 2018, Level 4)
+- **Python** (Level 1)
+- **Ruby** (Since 2012, Level 4)
 - **Angular** (Since 2012, Level 3)
 
 **Frameworks**
-- **React** (Since 2012, Level 4)
-- **Rails** (Since 2012, Level 4)
-- **Remix.run** (Since 2022, Level 3)
 
-**Operations**
+- **React** (Since 2012, Level 4)
+- **Next.js** (Since 2018, Level 4)
+- **Fastify** (Since 2026, Level 4)
+- **Tailwind CSS** (Since 2024, Level 4)
+- **OpenAPI** (Since 2024, Level 4)
+- **Rails** (Since 2012, Level 4)
+- **Remix** (Since 2022, Level 3)
+- **React Router** (Since 2022, Level 3)
+
+**AI**
+
+- **AI-assisted development** (Since 2026, Level 4)
+- **Agent workflows** (Since 2026, Level 3)
+- **Cursor** (Since 2026, Level 4)
+- **Claude Code** (Since 2026, Level 4)
+- **BMAD** (Since 2026, Level 3)
+- **SpecKit** (Since 2026, Level 3)
+
+**DevOps**
+
 - **Docker** (Since 2016, Level 4)
 - **Git/CI-CD** (Since 2015, Level 4)
+- **Kubernetes** (Since 2024, Level 3)
+- **OpenShift** (Since 2024, Level 3)
+- **ArgoCD** (Since 2024, Level 3)
+- **AWS** (Since 2024, Level 3)
 - **Heroku** (Since 2020, Level 4)
 
 **Databases**
+
 - **PostgreSQL** (Since 2012, Level 4)
-- **TimescaleDB** (Since 2021, Level 3)
-- **Redis** (Since 2012, Level 4)
+- **Supabase** (Since 2024, Level 3)
+- **Pinecone** (Since 2024, Level 3)
+- **Redis** (Since 2012, Level 3)
 - **Elasticsearch** (Since 2019, Level 3)
-- **MSSQL** (2006-2009, Level 4)
+- **TimescaleDB** (Since 2021, Level 3)
+- **SQL Server** (Since 2006, Level 3)
+
+**Testing**
+
+- **Jest** (Since 2022, Level 3)
+- **Cypress** (Since 2022, Level 3)
+- **Vitest** (Since 2024, Level 3)
+- **Minitest and RSpec** (Since 2012, Level 4)
 
 *(Level out of 5)*

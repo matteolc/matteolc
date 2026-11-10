@@ -30,7 +30,9 @@ const SkillCard = ({
     <div className="flex flex-row items-start justify-between gap-3 rounded-lg px-2 py-1">
       <div className="flex flex-col justify-between">
         <span className="font-medium text-on-surface">{skill}</span>
-        <span className="text-sm text-on-surface-variant">Since {since}</span>
+        {since ? (
+          <span className="text-sm text-on-surface-variant">Since {since}</span>
+        ) : null}
       </div>
       <div className="mt-1">
         <SkillLevel level={level} />

@@ -44,9 +44,10 @@ const Skills = () => {
       </h3>
       <ul className="mb-8 flex flex-wrap gap-x-2 gap-y-1">
         {[
-          'Clear writing',
-          'Debugging under pressure',
-          'Pairing & mentoring',
+          'Plain writing',
+          'Stays with the bug',
+          'Mentors by pairing',
+          'Sees it through',
         ].map(skill => (
           <li key={skill}>
             <SkillBadge skill={skill} />
@@ -61,10 +62,9 @@ const Skills = () => {
           'Music',
           'Cooking',
           'Motorsport',
+          'Car modeling',
           'Gardening',
-          'Making things',
-          'Family',
-          'Outdoors',
+          'Electronics and microcontrollers',
         ].map(skill => (
           <li key={skill}>
             <SkillBadge skill={skill} />

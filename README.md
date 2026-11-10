@@ -10,11 +10,11 @@ Creator of [Palettebro](https://palettebro.com) and the [`@palettebro`](https://
 - **Backend & production**: Postgres, production databases, monitoring, and observability
 - **Ruby on Rails**: extensive experience building APIs and full-stack products (currently focused on TypeScript/Node)
 - **Design systems**: color tokens, Tailwind, tooling designers and developers share
-- **Applied AI**: RAG prototypes with Postgres and modern React stacks
+- **AI-assisted delivery**: coding agents in day-to-day work, including multi-agent workflows
 
 ## Selected work
 
-- [Palettebro](https://palettebro.com): color palette generator for the web
+- [Palettebro](https://palettebro.com): color palette tool for the web
 - [palettebro-packages](https://github.com/matteolc/palettebro-packages): `@palettebro/generator` and `@palettebro/tailwind`
 - [nextjs-rag](https://github.com/matteolc/nextjs-rag): Next.js RAG demo with PostgreSQL
 - [react-router-rag](https://github.com/matteolc/react-router-rag): document ingest, embeddings, semantic search
@@ -30,7 +30,8 @@ Archived or no longer maintained:
 
 ## Stack
 
-- **Primary**: TypeScript, React, Node.js, Next.js, React Router, Postgres
+- **Primary**: TypeScript, React, Next.js, Node.js, Fastify, PostgreSQL
+- **AI**: Cursor, Claude Code, BMAD, SpecKit, AI-assisted development, agent workflows
 - **Background**: Ruby, Ruby on Rails (extensive; less day-to-day now)
 - **Design**: Figma, Tailwind CSS, Miro
 
