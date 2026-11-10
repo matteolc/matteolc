@@ -18,6 +18,9 @@ const Heading = () => {
               <p className="mt-1 text-base text-on-surface-variant sm:text-lg">
                 {heading.role}
               </p>
+              <p className="mt-0.5 text-sm text-on-surface-variant">
+                {heading.qualification}
+              </p>
             </div>
             <ThemeSwitcher />
           </div>

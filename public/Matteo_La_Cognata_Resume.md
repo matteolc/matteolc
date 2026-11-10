@@ -1,5 +1,6 @@
 # Ing. Matteo La Cognata
 ## **Senior Software Engineer**
+Ingegnere delle Telecomunicazioni, Politecnico di Milano
 [LinkedIn](https://www.linkedin.com/in/matteolc/) | [GitHub](https://github.com/matteolc) | [Palettebro](https://www.palettebro.com/)
 matteo.lacognata@gmail.com
 
