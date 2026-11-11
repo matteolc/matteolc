@@ -9,7 +9,9 @@ Use this skill for route, layout, rendering, and app-shell updates.
 
 ## Current setup
 
-- Remix v2 on Vite
+- React Router v7 framework mode on Vite, SPA (`ssr: false`)
+- Pages base path is `/matteolc/`. Keep the same trailing slash on Vite `base` and React Router `basename`, or the dev server refuses to start.
+- The only route is declared in `app/routes.ts`
 - Main route file: `app/routes/_index.tsx`
 - Root app shell: `app/root.tsx`
 - Meta is set via route-level `meta` exports.
