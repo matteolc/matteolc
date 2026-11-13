@@ -97,7 +97,7 @@ const Traces = () => (
               </span>
             </summary>
 
-            <div className="grid gap-5 px-3 pt-1 pb-4 md:pl-[calc(19rem+2rem)]">
+            <div className="grid gap-5 px-3 pt-1 pb-4">
               {span.description && (
                 <p className="max-w-[68ch] text-dim">{span.description}</p>
               )}
