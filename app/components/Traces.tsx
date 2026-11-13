@@ -70,6 +70,12 @@ const Traces = () => (
                     {span.from} – {span.to} ·{' '}
                     <span className="text-ink">{formatSpan(span.length)}</span>
                   </span>
+                  {'note' in span && span.note && (
+                    <span className="mt-1 block font-mono text-[0.65rem] text-info">
+                      <span aria-hidden="true">↳ </span>
+                      {span.note}
+                    </span>
+                  )}
                 </span>
                 <span
                   aria-hidden="true"

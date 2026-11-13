@@ -33,6 +33,7 @@ Senior Software Engineer
 Carta
 09/2022 - 06/2024
 Milan (Remote)
+Same team as Capdesk, which Carta acquired.
  - Mentored engineers through design reviews and delivery planning to keep projects moving predictably
  - Reduced technical debt by driving retrospective action items into concrete engineering improvements
  - Organized quarterly in-person working sessions to align the team on delivery priorities
@@ -45,6 +46,7 @@ Senior Software Engineer
 Capdesk
 05/2021 - 09/2022
 Milan (Remote)
+Acquired by Carta, where the team continued.
  - Shipped product improvements continuously within the Equity Plans squad with short release cycles
  - Led backlog grooming and metric-driven ideation to improve sprint focus and delivery
  - Modernized frontend architecture by migrating selected components from Angular to React

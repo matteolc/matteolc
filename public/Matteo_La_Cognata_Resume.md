@@ -33,6 +33,8 @@ Full-stack product work across web applications, APIs, and production delivery.
 *[Carta](https://carta.com/)*
 *Sep 2022 - Jun 2024*
 
+Same team as Capdesk, which Carta acquired.
+
 - Mentored engineers through design reviews and delivery planning to keep projects moving predictably.
 - Reduced technical debt by driving retrospective action items into concrete engineering improvements.
 - Organized quarterly in-person working sessions to align the team on delivery priorities.
@@ -45,6 +47,8 @@ Full-stack product work across web applications, APIs, and production delivery.
 **Senior Software Engineer**
 *[Capdesk](https://www.capdesk.com/)*
 *May 2021 - Sep 2022*
+
+Acquired by Carta, where the team continued.
 
 - Shipped product improvements continuously within the Equity Plans squad with short release cycles.
 - Led backlog grooming and metric-driven ideation to improve sprint focus and delivery.

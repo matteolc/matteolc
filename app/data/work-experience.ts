@@ -37,6 +37,7 @@ const workExperience = {
       from: 'Sep 2022',
       to: 'Jun 2024',
       current: false,
+      note: 'Same team, after Carta acquired Capdesk',
       description: '',
       items: [
         'Mentored engineers through design reviews and delivery planning to keep projects moving predictably.',
@@ -65,6 +66,7 @@ const workExperience = {
       from: 'May 2021',
       to: 'Sep 2022',
       current: false,
+      note: 'Acquired by Carta, where the team continued',
       description: '',
       items: [
         'Shipped product improvements continuously within the Equity Plans squad with short release cycles.',
