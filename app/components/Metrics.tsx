@@ -29,13 +29,13 @@ const Metrics = () => (
     <div className="mt-12 grid gap-x-12 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
       {groups.map(({ category, items }) => (
         <table key={category} className="w-full border-collapse self-start">
-          <caption className="border-b-2 border-ink pb-2 text-left font-mono text-xs font-bold uppercase">
+          <caption className="border-b-2 border-ink px-3 pb-2 text-left font-mono text-xs font-bold uppercase">
             {category}{' '}
             <span className="font-normal text-dim">{items.length}</span>
           </caption>
           <thead className="font-mono text-[0.6rem] uppercase text-dim">
             <tr className="border-b border-rule">
-              <th scope="col" className="py-2 text-left font-normal">
+              <th scope="col" className="py-2 pl-3 text-left font-normal">
                 series
               </th>
               <th scope="col" className="py-2 text-right font-normal">
@@ -44,7 +44,7 @@ const Metrics = () => (
               <th scope="col" className="py-2 pl-3 text-right font-normal">
                 yrs
               </th>
-              <th scope="col" className="py-2 pl-4 text-right font-normal">
+              <th scope="col" className="py-2 pr-3 pl-4 text-right font-normal">
                 level
               </th>
             </tr>
@@ -53,11 +53,11 @@ const Metrics = () => (
             {items.map(({ skill, since, level }) => (
               <tr
                 key={skill}
-                className="border-b border-rule/60 transition-colors hover:bg-panel hover:shadow-[-12px_0_0_var(--panel),12px_0_0_var(--panel)]"
+                className="border-b border-rule/60 transition-colors hover:bg-panel"
               >
                 <th
                   scope="row"
-                  className="py-2 pr-2 text-left text-sm font-medium"
+                  className="py-2 pr-2 pl-3 text-left text-sm font-medium"
                 >
                   {skill}
                 </th>
@@ -67,7 +67,7 @@ const Metrics = () => (
                 <td className="py-2 pl-3 text-right font-mono text-[0.7rem]">
                   {years(since)}
                 </td>
-                <td className="py-2 pl-4">
+                <td className="py-2 pr-3 pl-4">
                   <span className="flex justify-end gap-0.5">
                     {Array.from({ length: MAX_LEVEL }, (_, i) => (
                       <span

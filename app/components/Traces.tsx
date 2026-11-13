@@ -40,7 +40,7 @@ const Traces = () => (
       meta={`experience · ${spans.length} spans · ${START} → now`}
     />
 
-    <div className="mt-10 font-mono text-[0.65rem] text-dim md:grid md:grid-cols-[19rem_minmax(0,1fr)] md:gap-x-8">
+    <div className="mt-10 px-3 font-mono text-[0.65rem] text-dim md:grid md:grid-cols-[19rem_minmax(0,1fr)] md:gap-x-8">
       <span className="hidden md:block">service / operation</span>
       <div aria-hidden="true" className="relative h-5">
         {TICKS.map(year => (
@@ -59,7 +59,7 @@ const Traces = () => (
       {spans.map(span => (
         <li key={`${span.company}-${span.from}`}>
           <details open={span.current} className="group border-b border-rule">
-            <summary className="-mx-3 grid cursor-pointer list-none gap-x-8 gap-y-3 px-3 py-4 transition-colors hover:bg-panel md:grid-cols-[19rem_minmax(0,1fr)] md:items-center [&::-webkit-details-marker]:hidden">
+            <summary className="grid cursor-pointer list-none gap-x-8 gap-y-3 px-3 py-4 transition-colors hover:bg-panel md:grid-cols-[19rem_minmax(0,1fr)] md:items-center [&::-webkit-details-marker]:hidden">
               <span className="flex items-start justify-between gap-4">
                 <span>
                   <span className="block font-semibold">{span.company}</span>
@@ -97,7 +97,7 @@ const Traces = () => (
               </span>
             </summary>
 
-            <div className="grid gap-5 pt-1 pb-4 md:pl-[calc(19rem+2rem)]">
+            <div className="grid gap-5 px-3 pt-1 pb-4 md:pl-[calc(19rem+2rem)]">
               {span.description && (
                 <p className="max-w-[68ch] text-dim">{span.description}</p>
               )}

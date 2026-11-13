@@ -19,7 +19,7 @@ const Services = () => (
             href={project.href}
             target="_blank"
             rel="noreferrer"
-            className="group -mx-3 grid grid-cols-[7ch_minmax(0,1fr)] items-baseline gap-x-6 gap-y-1 px-3 py-5 transition-colors hover:bg-panel md:grid-cols-[7ch_minmax(0,22rem)_minmax(0,1fr)_auto]"
+            className="group grid grid-cols-[7ch_minmax(0,1fr)] items-baseline gap-x-6 gap-y-1 px-3 py-5 transition-colors hover:bg-panel md:grid-cols-[7ch_minmax(0,22rem)_minmax(0,1fr)_auto]"
           >
             <span
               className={`flex items-center gap-2 font-mono text-[0.65rem] uppercase ${
