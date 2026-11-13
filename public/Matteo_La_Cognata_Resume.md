@@ -69,7 +69,7 @@ Full-stack product work across web applications, APIs, and production delivery.
 *Technologies: Ruby, JavaScript, TypeScript, React, Next.js, Express, Rails, FreeSWITCH, Docker, Kibana, Elastic, TimescaleDB, PostgreSQL, Git/CI-CD*
 
 **Freelance Full-Stack Developer**
-*Milan, IT*
+*Various clients, Milan, IT*
 *2012 – 2018*
 
 - Delivered Ruby on Rails applications and JSON APIs with React frontends for multiple clients.

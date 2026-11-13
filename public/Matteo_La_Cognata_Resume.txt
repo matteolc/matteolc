@@ -66,7 +66,7 @@ Milan (Remote)
  - Ruby, JavaScript, TypeScript, React, Next.js, Express, Rails, Docker, PostgreSQL, Git/CI-CD
 
 Freelance Full-Stack Developer
-Self-employed
+Various clients
 01/2012 - 01/2018
 Milan
  - Delivered Ruby on Rails applications and JSON APIs with React frontends for multiple clients

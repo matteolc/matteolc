@@ -122,7 +122,7 @@ const workExperience = {
       ],
     },
     {
-      company: 'Milan, IT',
+      company: 'Various clients, Milan',
       position: 'Freelance Full-Stack Developer',
       from: '2012',
       to: '2018',
