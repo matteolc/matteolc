@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
+    "build": "react-router build && node scripts/lift-prerender.mjs",
     "dev": "react-router dev",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
