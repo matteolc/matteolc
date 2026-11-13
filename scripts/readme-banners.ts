@@ -131,7 +131,7 @@ ${nav}
 <rect x="${cursorX}" y="226" width="${nameSize * 0.5}" height="${nameSize * 0.76}" fill="${t.warn}" class="blink"/>
 <text x="56" y="372" font-size="16" class="dim"><tspan class="ok">RUNNING</tspan> ${esc(heading.role.toUpperCase())} <tspan fill="${t.ink}">@ ${esc((current?.company ?? '').toUpperCase())}</tspan></text>
 <text x="56" y="400" font-size="14" class="dim">${esc(heading.qualification.toUpperCase())}</text>
-<text x="56" y="458" font-size="14" class="dim">TypeScript · React · Node.js · PostgreSQL · Rails · Design systems</text>
+<text x="56" y="458" font-size="14" class="dim">TypeScript · React · Node.js · PostgreSQL · Design systems</text>
 <rect x="${px}" y="96" width="352" height="${52 + lines.length * 22}" fill="${t.panel}" stroke="${t.rule}"/>
 <line x1="${px}" x2="${px + 352}" y1="128" y2="128" stroke="${t.rule}"/>
 <text x="${px + 20}" y="117" font-size="12" class="dim">tail -f career.log</text>

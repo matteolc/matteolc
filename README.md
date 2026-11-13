@@ -14,19 +14,19 @@ Senior software engineer at [Nearform](https://www.nearform.com), Milan. I ship 
 - **AI agents**: coding agents in day-to-day delivery — planning, implementation, review — including multi-agent workflows
 - **Product engineering**: own delivery from design through frontend to backend APIs
 - **Backend & production**: Postgres, production databases, monitoring, and observability
-- **Ruby on Rails**: extensive experience building APIs and full-stack products (currently focused on TypeScript/Node)
 - **Design systems**: color tokens, Tailwind, tooling designers and developers share
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/traces-dark.svg">
-  <img alt="Career trace waterfall from 2003 to now: embedded software, telecom and VoIP, freelance Rails, then product engineering at Fabbricadigitale, Capdesk, Carta and Nearform." src="assets/traces-light.svg" width="100%">
+  <img alt="Career trace waterfall from 2003 to now: embedded software, telecom and VoIP, freelance product work, then product engineering at Fabbricadigitale, Capdesk, Carta and Nearform." src="assets/traces-light.svg" width="100%">
 </picture>
 
 ### `300` Stack
 
 - **AI & agents**: agent-assisted delivery, multi-agent workflows, spec-driven development (Claude Code, Cursor)
 - **Primary**: TypeScript, React, Next.js, Node.js, Fastify, PostgreSQL
-- **Background**: Ruby, Ruby on Rails (extensive; less day-to-day now)
+- **Embedded**: spare-time environmental monitoring on Arduino, ESP32, and Raspberry Pi — sensors, actuators, forecasting
+- **Earlier**: Ruby on Rails
 - **Design**: Figma, Tailwind CSS, Miro
 
 ### `400` Services

@@ -27,7 +27,7 @@ text{font-family:M,ui-monospace,monospace;fill:oklch(0.94 0.012 170)}
 <rect x="794" y="226" width="50" height="76" fill="oklch(0.84 0.15 78)" class="blink"/>
 <text x="56" y="372" font-size="16" class="dim"><tspan class="ok">RUNNING</tspan> SENIOR SOFTWARE ENGINEER <tspan fill="oklch(0.94 0.012 170)">@ NEARFORM</tspan></text>
 <text x="56" y="400" font-size="14" class="dim">INGEGNERE DELLE TELECOMUNICAZIONI, POLITECNICO DI MILANO</text>
-<text x="56" y="458" font-size="14" class="dim">TypeScript · React · Node.js · PostgreSQL · Rails · Design systems</text>
+<text x="56" y="458" font-size="14" class="dim">TypeScript · React · Node.js · PostgreSQL · Design systems</text>
 <rect x="872" y="96" width="352" height="338" fill="oklch(0.2 0.016 190)" stroke="oklch(0.33 0.02 190)"/>
 <line x1="872" x2="1224" y1="128" y2="128" stroke="oklch(0.33 0.02 190)"/>
 <text x="892" y="117" font-size="12" class="dim">tail -f career.log</text>
