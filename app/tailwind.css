@@ -180,6 +180,9 @@
 }
 
 @keyframes meter-step {
+  from {
+    background-color: var(--rule);
+  }
   to {
     background-color: var(--ok);
   }
@@ -215,24 +218,18 @@
   background-color: var(--ok);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  [data-armed] .meter-on {
-    background-color: var(--rule);
-    animation: meter-step 1ms steps(1, end) forwards;
-    animation-play-state: paused;
-  }
-
-  [data-armed][data-lit] .meter-on {
-    animation-play-state: running;
-  }
-}
-
 @supports (animation-timeline: view()) {
   .span-draw {
     transform-origin: left;
     animation: span-draw linear both;
     animation-timeline: view();
     animation-range: entry 10% cover 35%;
+  }
+
+  .meter-on {
+    animation: meter-step steps(1, end) both;
+    animation-timeline: view();
+    animation-range: entry calc(var(--i) * 6%) cover calc(12% + var(--i) * 6%);
   }
 }
 

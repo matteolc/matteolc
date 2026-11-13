@@ -249,7 +249,7 @@ A single text button, `crt / print`, Label uppercase in dim; the active medium i
 Each role is a `details` row: company (grotesque 600), position (dim), and a Label Micro date range with the duration in ink, beside a 12px-tall span bar positioned on the shared time axis; current role in ok, past in info, minimum width 0.5rem. Hover or keyboard focus turns the bar warn and reveals a warn-bordered, 10%-warn time-range band across the axis. Spans draw left-to-right as they scroll into view (scroll-driven `scaleX`, CSS only, where `animation-timeline` is supported). Expanding reveals description, `-` bullets in warn, skill chips and an info host link.
 
 ### Metric Meter
-Skills as tables: a 2px ink caption with category and count, Label Micro column heads (series, since, yrs, level), and a level meter of five 8px by 10px square cells, ok when filled, rule when empty, with an sr-only "level n of 5". When a table scrolls up into view, its filled cells step on left to right, 90ms apart, once. A table already on screen stays at its final level. Reduced motion shows the final level.
+Skills as tables: a 2px ink caption with category and count, Label Micro column heads (series, since, yrs, level), and a level meter of five 8px by 10px square cells, ok when filled, rule when empty, with an sr-only "level n of 5". Filled cells step on left to right as their row scrolls into view, and step off as it scrolls away, the same way trace spans draw. Reduced motion shows the final level.
 
 ### Boot Log
 Log lines as a `5ch 5ch 1fr` grid (year in dim, level in ok or info, message in ink), each revealed by a left-to-right clip at 110ms intervals after a 500ms delay, ending on `now OK healthy, accepting connections` and the live block cursor.

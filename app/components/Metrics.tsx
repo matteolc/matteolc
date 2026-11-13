@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import type { CSSProperties } from 'react'
 import { SkillCategory, skills } from '~/data/skills'
 import { PageHeader } from './PageHeader'
 
@@ -18,114 +18,82 @@ const years = (since: string) => {
   return n < 1 ? '<1' : String(n)
 }
 
-const Metrics = () => {
-  useEffect(() => {
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (reduce) return
+const meterStyle = (index: number): CSSProperties =>
+  ({ '--i': index }) as CSSProperties
 
-    const tables = document.querySelectorAll('#p300 table')
-    const seen = new IntersectionObserver(
-      entries => {
-        for (const entry of entries) {
-          const table = entry.target
-          if (entry.isIntersecting) {
-            table.setAttribute('data-lit', '')
-            seen.unobserve(table)
-            continue
-          }
-          if (entry.boundingClientRect.top >= window.innerHeight) {
-            table.setAttribute('data-armed', '')
-          }
-        }
-      },
-      { threshold: 0.25 },
-    )
+const Metrics = () => (
+  <section aria-labelledby="metrics" id="p300" className="py-20 md:py-28">
+    <PageHeader
+      id="metrics"
+      page={300}
+      title="Metrics"
+      meta={`stack · ${skills.items.length} series · level of ${MAX_LEVEL}`}
+    />
 
-    for (const table of tables) seen.observe(table)
-    return () => seen.disconnect()
-  }, [])
-
-  return (
-    <section aria-labelledby="metrics" id="p300" className="py-20 md:py-28">
-      <PageHeader
-        id="metrics"
-        page={300}
-        title="Metrics"
-        meta={`stack · ${skills.items.length} series · level of ${MAX_LEVEL}`}
-      />
-
-      <div className="mt-12 grid gap-x-12 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
-        {groups.map(({ category, items }) => (
-          <table key={category} className="w-full border-collapse self-start">
-            <caption className="border-b-2 border-ink px-3 pb-2 text-left font-mono text-xs font-bold uppercase">
-              {category}{' '}
-              <span className="font-normal text-dim">{items.length}</span>
-            </caption>
-            <thead className="font-mono text-[0.6rem] uppercase text-dim">
-              <tr className="border-b border-rule">
-                <th scope="col" className="py-2 pl-3 text-left font-normal">
-                  series
-                </th>
-                <th scope="col" className="py-2 text-right font-normal">
-                  since
-                </th>
-                <th scope="col" className="py-2 pl-3 text-right font-normal">
-                  yrs
-                </th>
+    <div className="mt-12 grid gap-x-12 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
+      {groups.map(({ category, items }) => (
+        <table key={category} className="w-full border-collapse self-start">
+          <caption className="border-b-2 border-ink px-3 pb-2 text-left font-mono text-xs font-bold uppercase">
+            {category}{' '}
+            <span className="font-normal text-dim">{items.length}</span>
+          </caption>
+          <thead className="font-mono text-[0.6rem] uppercase text-dim">
+            <tr className="border-b border-rule">
+              <th scope="col" className="py-2 pl-3 text-left font-normal">
+                series
+              </th>
+              <th scope="col" className="py-2 text-right font-normal">
+                since
+              </th>
+              <th scope="col" className="py-2 pl-3 text-right font-normal">
+                yrs
+              </th>
+              <th scope="col" className="py-2 pr-3 pl-4 text-right font-normal">
+                level
+              </th>
+            </tr>
+          </thead>
+          <tbody className="greenbar">
+            {items.map(({ skill, since, level }) => (
+              <tr
+                key={skill}
+                className="border-b border-rule/60 transition-colors hover:bg-panel"
+              >
                 <th
-                  scope="col"
-                  className="py-2 pr-3 pl-4 text-right font-normal"
+                  scope="row"
+                  className="py-2 pr-2 pl-3 text-left text-sm font-medium"
                 >
-                  level
+                  {skill}
                 </th>
-              </tr>
-            </thead>
-            <tbody className="greenbar">
-              {items.map(({ skill, since, level }) => (
-                <tr
-                  key={skill}
-                  className="border-b border-rule/60 transition-colors hover:bg-panel"
-                >
-                  <th
-                    scope="row"
-                    className="py-2 pr-2 pl-3 text-left text-sm font-medium"
-                  >
-                    {skill}
-                  </th>
-                  <td className="py-2 text-right font-mono text-[0.7rem] text-dim">
-                    {since || '—'}
-                  </td>
-                  <td className="py-2 pl-3 text-right font-mono text-[0.7rem]">
-                    {years(since)}
-                  </td>
-                  <td className="py-2 pr-3 pl-4">
-                    <span className="flex justify-end gap-0.5">
-                      {Array.from({ length: MAX_LEVEL }, (_, i) => (
-                        <span
-                          // biome-ignore lint/suspicious/noArrayIndexKey: fixed-length meter cells
-                          key={i}
-                          aria-hidden="true"
-                          style={
-                            i < level
-                              ? { animationDelay: `${i * 90}ms` }
-                              : undefined
-                          }
-                          className={`h-2.5 w-2 bg-rule ${i < level ? 'meter-on' : ''}`}
-                        />
-                      ))}
-                      <span className="sr-only">
-                        level {level} of {MAX_LEVEL}
-                      </span>
+                <td className="py-2 text-right font-mono text-[0.7rem] text-dim">
+                  {since || '—'}
+                </td>
+                <td className="py-2 pl-3 text-right font-mono text-[0.7rem]">
+                  {years(since)}
+                </td>
+                <td className="py-2 pr-3 pl-4">
+                  <span className="flex justify-end gap-0.5">
+                    {Array.from({ length: MAX_LEVEL }, (_, i) => (
+                      <span
+                        // biome-ignore lint/suspicious/noArrayIndexKey: fixed-length meter cells
+                        key={i}
+                        aria-hidden="true"
+                        style={i < level ? meterStyle(i) : undefined}
+                        className={`h-2.5 w-2 bg-rule ${i < level ? 'meter-on' : ''}`}
+                      />
+                    ))}
+                    <span className="sr-only">
+                      level {level} of {MAX_LEVEL}
                     </span>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ))}
-      </div>
-    </section>
-  )
-}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      ))}
+    </div>
+  </section>
+)
 
 export { Metrics }
