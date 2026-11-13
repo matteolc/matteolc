@@ -10,7 +10,7 @@ const Logs = () => (
         id="logs"
         page={500}
         title="Logs"
-        meta={`education · ${education.experiences.length} entries`}
+        meta={`education and volunteering · ${education.experiences.length} entries`}
       />
       <ol className="greenbar mt-12 border-t border-rule">
         {education.experiences.map(entry => (
