@@ -20,16 +20,18 @@ export const meta: MetaFunction = () => {
     { property: 'og:description', content: DESCRIPTION },
     { property: 'og:type', content: 'profile' },
     { property: 'og:url', content: SITE_URL },
-    { property: 'og:image', content: `${SITE_URL}profile.jpeg` },
-    { property: 'og:image:width', content: '400' },
-    { property: 'og:image:height', content: '400' },
-    { property: 'og:image:alt', content: 'Matteo La Cognata' },
-    // `summary` rather than `summary_large_image`: profile.jpeg is square, and
-    // the large card crops to 2:1.
-    { name: 'twitter:card', content: 'summary' },
+    // Drawn from the CV data by `node scripts/og-image.ts`.
+    { property: 'og:image', content: `${SITE_URL}og.png` },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    {
+      property: 'og:image:alt',
+      content: `${TITLE}, in tech since 2003`,
+    },
+    { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: TITLE },
     { name: 'twitter:description', content: DESCRIPTION },
-    { name: 'twitter:image', content: `${SITE_URL}profile.jpeg` },
+    { name: 'twitter:image', content: `${SITE_URL}og.png` },
   ]
 }
 
