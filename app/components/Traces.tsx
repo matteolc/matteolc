@@ -58,7 +58,7 @@ const Traces = () => (
     <ol className="greenbar mt-2 border-t border-rule">
       {spans.map(span => (
         <li key={`${span.company}-${span.from}`}>
-          <details className="group border-b border-rule">
+          <details open={span.current} className="group border-b border-rule">
             <summary className="-mx-3 grid cursor-pointer list-none gap-x-8 gap-y-3 px-3 py-4 transition-colors hover:bg-panel md:grid-cols-[19rem_minmax(0,1fr)] md:items-center [&::-webkit-details-marker]:hidden">
               <span className="flex items-start justify-between gap-4">
                 <span>
