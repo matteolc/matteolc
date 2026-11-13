@@ -41,7 +41,7 @@ const Metrics = () => (
               <th scope="col" className="py-2 text-right font-normal">
                 since
               </th>
-              <th scope="col" className="py-2 text-right font-normal">
+              <th scope="col" className="py-2 pl-3 text-right font-normal">
                 yrs
               </th>
               <th scope="col" className="py-2 pl-4 text-right font-normal">
@@ -64,7 +64,7 @@ const Metrics = () => (
                 <td className="py-2 text-right font-mono text-[0.7rem] text-dim">
                   {since || '—'}
                 </td>
-                <td className="py-2 text-right font-mono text-[0.7rem]">
+                <td className="py-2 pl-3 text-right font-mono text-[0.7rem]">
                   {years(since)}
                 </td>
                 <td className="py-2 pl-4">
