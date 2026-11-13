@@ -1,11 +1,11 @@
 enum SkillCategory {
+  emergingTechnologies = 'AI & agents',
   programming = 'Programming',
   frameworks = 'Frameworks',
   operations = 'DevOps',
   databases = 'Databases',
   projectManagement = 'Project Management',
   testing = 'Testing',
-  emergingTechnologies = 'AI',
 }
 
 const skills = {
@@ -216,39 +216,27 @@ const skills = {
       category: SkillCategory.testing,
     },
     {
-      skill: 'AI-assisted development',
-      since: '2026',
+      skill: 'Agent-assisted delivery',
+      since: '2024',
       level: 4,
       category: SkillCategory.emergingTechnologies,
     },
     {
-      skill: 'Agent workflows',
-      since: '2026',
+      skill: 'Multi-agent workflows',
+      since: '2024',
       level: 3,
       category: SkillCategory.emergingTechnologies,
     },
     {
-      skill: 'Cursor',
-      since: '2026',
+      skill: 'Spec-driven development',
+      since: '2024',
+      level: 3,
+      category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'Coding agents (Claude Code, Cursor)',
+      since: '2024',
       level: 4,
-      category: SkillCategory.emergingTechnologies,
-    },
-    {
-      skill: 'Claude Code',
-      since: '2026',
-      level: 4,
-      category: SkillCategory.emergingTechnologies,
-    },
-    {
-      skill: 'BMAD',
-      since: '2026',
-      level: 3,
-      category: SkillCategory.emergingTechnologies,
-    },
-    {
-      skill: 'SpecKit',
-      since: '2026',
-      level: 3,
       category: SkillCategory.emergingTechnologies,
     },
   ],

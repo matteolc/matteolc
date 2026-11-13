@@ -11,11 +11,11 @@ Senior software engineer at [Nearform](https://www.nearform.com), Milan. I ship 
 
 ### `100` Focus
 
+- **AI agents**: coding agents in day-to-day delivery — planning, implementation, review — including multi-agent workflows
 - **Product engineering**: own delivery from design through frontend to backend APIs
 - **Backend & production**: Postgres, production databases, monitoring, and observability
 - **Ruby on Rails**: extensive experience building APIs and full-stack products (currently focused on TypeScript/Node)
 - **Design systems**: color tokens, Tailwind, tooling designers and developers share
-- **AI-assisted delivery**: coding agents in day-to-day work, including multi-agent workflows
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/traces-dark.svg">
@@ -24,8 +24,8 @@ Senior software engineer at [Nearform](https://www.nearform.com), Milan. I ship 
 
 ### `300` Stack
 
+- **AI & agents**: agent-assisted delivery, multi-agent workflows, spec-driven development (Claude Code, Cursor)
 - **Primary**: TypeScript, React, Next.js, Node.js, Fastify, PostgreSQL
-- **AI**: Cursor, Claude Code, BMAD, SpecKit, AI-assisted development, agent workflows
 - **Background**: Ruby, Ruby on Rails (extensive; less day-to-day now)
 - **Design**: Figma, Tailwind CSS, Miro
 
@@ -42,4 +42,4 @@ Senior software engineer at [Nearform](https://www.nearform.com), Milan. I ship 
 | archived | [air-quality-dashboard](https://github.com/matteolc/air-quality-dashboard) | Real-time and historical air quality UI for BME688 sensors |
 | archived | [modesl-wrapper](https://github.com/matteolc/modesl-wrapper) | Typed FreeSWITCH ESL helper around `modesl` |
 
-<sub>Banners are generated from the CV data: `node scripts/readme-banners.ts`.</sub>
+<sub>Banners are generated from the CV data: `node scripts/readme-banners.ts`. The PDF resume is printed from `scripts/resume.html`: `node scripts/resume-pdf.ts`.</sub>
