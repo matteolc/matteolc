@@ -1,4 +1,3 @@
-import { MoonIcon, SunIcon } from '@heroicons/react/24/solid'
 import { useSyncExternalStore } from 'react'
 
 const THEME_KEY = 'matteolc-theme'
@@ -88,15 +87,15 @@ const ThemeSwitcher = () => {
           document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light'
         applyTheme(current === 'dark' ? 'light' : 'dark')
       }}
-      aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+      aria-label={
+        isDark ? 'Switch to printout theme' : 'Switch to console theme'
+      }
       aria-pressed={isDark}
-      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-lowest text-on-surface shadow-sm transition hover:bg-surface-container focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+      className="flex items-center gap-1 px-2 py-1 uppercase text-dim transition-colors hover:text-ink"
     >
-      {isDark ? (
-        <MoonIcon className="h-5 w-5" aria-hidden="true" />
-      ) : (
-        <SunIcon className="h-5 w-5" aria-hidden="true" />
-      )}
+      <span className={isDark ? 'text-warn' : ''}>crt</span>
+      <span aria-hidden="true">/</span>
+      <span className={isDark ? '' : 'text-warn'}>print</span>
     </button>
   )
 }

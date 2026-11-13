@@ -5,3 +5,7 @@ node_modules
 /build
 /public/build
 .env
+/.impeccable/review
+/.impeccable/hook.cache.json
+/.cursor/hooks.json
+/.playwright-mcp

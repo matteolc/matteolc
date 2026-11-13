@@ -1,29 +1,33 @@
 import type { MetaFunction } from 'react-router'
-import { Education } from '~/components/Education'
-import { Heading } from '~/components/Heading'
-import { Skills } from '~/components/Skills'
-import { WorkExperience } from '~/components/WorkExperience'
+import { Hero } from '~/components/Hero'
+import { Logs } from '~/components/Logs'
+import { Metrics } from '~/components/Metrics'
+import { Services } from '~/components/Services'
+import { StatusBar } from '~/components/StatusBar'
+import { Traces } from '~/components/Traces'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: 'Ing. Matteo La Cognata' },
-    { name: 'description', content: 'Curriculum vitae' },
+    { title: 'Matteo La Cognata · Senior Software Engineer' },
+    {
+      name: 'description',
+      content:
+        'Curriculum vitae of Matteo La Cognata, Senior Software Engineer at Nearform. In tech since 2003.',
+    },
   ]
 }
 
 export default function Index() {
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="flex flex-col gap-6 lg:gap-8">
-        <Heading />
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-4 lg:gap-8">
-          <Skills />
-          <div className="flex flex-col gap-6 lg:col-span-3 lg:gap-8">
-            <WorkExperience />
-            <Education />
-          </div>
-        </div>
-      </div>
-    </main>
+    <>
+      <StatusBar />
+      <main className="mx-auto max-w-[1400px] px-5 sm:px-10 xl:px-16">
+        <Hero />
+        <Traces />
+        <Metrics />
+        <Services />
+        <Logs />
+      </main>
+    </>
   )
 }

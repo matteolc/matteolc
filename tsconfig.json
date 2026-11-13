@@ -1,5 +1,6 @@
 {
   "include": ["env.d.ts", "**/*.ts", "**/*.tsx", ".react-router/types/**/*"],
+  "exclude": ["node_modules", "build", "scripts"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "isolatedModules": true,
@@ -17,6 +18,7 @@
       "~/*": ["./app/*"]
     },
     "rootDirs": [".", "./.react-router/types"],
-    "noEmit": true
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   }
 }

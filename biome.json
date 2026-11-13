@@ -13,7 +13,8 @@
       "!**/node_modules",
       "!**/build",
       "!**/.cursor",
-      "!**/*.css"
+      "!**/*.css",
+      "!**/assets/*.svg"
     ]
   },
   "formatter": {
