@@ -10,13 +10,13 @@ const Logs = () => (
         id="logs"
         page={500}
         title="Logs"
-        meta={`education · ${education.experiences.length} entries`}
+        meta={`education and volunteering · ${education.experiences.length} entries`}
       />
       <ol className="greenbar mt-12 border-t border-rule">
         {education.experiences.map(entry => (
           <li
             key={entry.company}
-            className="grid gap-x-6 gap-y-1 border-b border-rule py-5 md:grid-cols-[11ch_5ch_minmax(0,1fr)]"
+            className="grid gap-x-6 gap-y-1 border-b border-rule px-3 py-5 md:grid-cols-[11ch_5ch_minmax(0,1fr)]"
           >
             <time className="font-mono text-xs text-dim">
               {entry.from}–{entry.to}

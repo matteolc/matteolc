@@ -47,7 +47,7 @@ text{font-family:M,ui-monospace,monospace;fill:oklch(0.94 0.012 170)}
 </g>
 <rect x="929.7202797202813" y="308" width="111.04895104894877" height="12" fill="oklch(0.8 0.11 222)" class="draw" style="animation-delay:570ms"/><g class="in" style="animation-delay:360ms">
 <line x1="56" x2="1224" y1="386" y2="386" stroke="oklch(0.33 0.02 190)" stroke-opacity=".5"/>
-<text x="56" y="360" font-size="14" font-weight="700">Milan, IT</text>
+<text x="56" y="360" font-size="14" font-weight="700">Various clients, Milan</text>
 <text x="56" y="378" font-size="11" class="dim">Freelance Full-Stack Developer</text>
 <text x="406" y="366" font-size="11" class="dim" text-anchor="end">6y</text>
 </g>
