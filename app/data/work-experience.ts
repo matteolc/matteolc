@@ -12,11 +12,11 @@ const workExperience = {
         'Full-stack product work across web applications, APIs, and production delivery.',
       items: [
         'Design and ship web products from the interface through the APIs to production.',
+        'Work with coding agents every day, from planning a change through implementation to review.',
         'Work on authentication and sessions for applications used by large user bases.',
         'Consolidate frontends and carry framework upgrades through to release.',
         'Care for security, reliability, and the way the team ships.',
         'Pick up production support and see issues through.',
-        'Use AI-assisted development every day, including agent workflows for team delivery.',
       ],
       skills: [
         'TypeScript',
@@ -26,10 +26,8 @@ const workExperience = {
         'PostgreSQL',
         'Tailwind CSS',
         'Kubernetes',
-        'Cursor',
         'Claude Code',
-        'BMAD',
-        'SpecKit',
+        'Cursor',
       ],
     },
     {

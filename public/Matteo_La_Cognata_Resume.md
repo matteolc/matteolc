@@ -8,7 +8,7 @@ matteo.lacognata@gmail.com
 
 ### Professional Summary
 
-Full-stack engineer at Nearform, based in Italy, in tech since 2003. I design and ship web products end to end: the interface, authentication, and the APIs behind them. I also build design systems, including Palettebro, and I use AI-assisted development in day-to-day delivery. Italian is my mother tongue; I speak and write English at a professional level.
+Full-stack engineer at Nearform, based in Italy, in tech since 2003. I work with coding agents every day, from planning a change to reviewing it, and I design and ship web products end to end: the interface, authentication, and the APIs behind them. I also build design systems, including Palettebro. Italian is my mother tongue; I speak and write English at a professional level.
 
 ---
 
@@ -21,13 +21,13 @@ Full-stack engineer at Nearform, based in Italy, in tech since 2003. I design an
 Full-stack product work across web applications, APIs, and production delivery.
 
 - Design and ship web products from the interface through the APIs to production.
+- Work with coding agents every day, from planning a change through implementation to review.
 - Work on authentication and sessions for applications used by large user bases.
 - Consolidate frontends and carry framework upgrades through to release.
 - Care for security, reliability, and the way the team ships.
 - Pick up production support and see issues through.
-- Use AI-assisted development every day, including agent workflows for team delivery.
 
-*Technologies: TypeScript, React, Next.js, Node.js, PostgreSQL, Tailwind CSS, Kubernetes, Cursor, Claude Code, BMAD, SpecKit*
+*Technologies: TypeScript, React, Next.js, Node.js, PostgreSQL, Tailwind CSS, Kubernetes, Claude Code, Cursor*
 
 **Senior Software Engineer**
 *[Carta](https://carta.com/)*
@@ -134,6 +134,13 @@ Full-stack product work across web applications, APIs, and production delivery.
 
 ### Skills
 
+**AI & agents**
+
+- **Agent-assisted delivery** (Since 2024, Level 4)
+- **Multi-agent workflows** (Since 2024, Level 3)
+- **Spec-driven development** (Since 2024, Level 3)
+- **Coding agents: Claude Code, Cursor** (Since 2024, Level 4)
+
 **Programming**
 
 - **TypeScript** (Since 2018, Level 4)
@@ -153,15 +160,6 @@ Full-stack product work across web applications, APIs, and production delivery.
 - **Rails** (Since 2012, Level 4)
 - **Remix** (Since 2022, Level 3)
 - **React Router** (Since 2022, Level 3)
-
-**AI**
-
-- **AI-assisted development** (Since 2026, Level 4)
-- **Agent workflows** (Since 2026, Level 3)
-- **Cursor** (Since 2026, Level 4)
-- **Claude Code** (Since 2026, Level 4)
-- **BMAD** (Since 2026, Level 3)
-- **SpecKit** (Since 2026, Level 3)
 
 **DevOps**
 
