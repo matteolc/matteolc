@@ -249,7 +249,7 @@ A single text button, `crt / print`, Label uppercase in dim; the active medium i
 Each role is a `details` row: company (grotesque 600), position (dim), and a Label Micro date range with the duration in ink, beside a 12px-tall span bar positioned on the shared time axis; current role in ok, past in info, minimum width 0.5rem. Hover or keyboard focus turns the bar warn and reveals a warn-bordered, 10%-warn time-range band across the axis. Spans draw left-to-right as they scroll into view (scroll-driven `scaleX`, CSS only, where `animation-timeline` is supported). Expanding reveals description, `-` bullets in warn, skill chips and an info host link.
 
 ### Metric Meter
-Skills as tables: a 2px ink caption with category and count, Label Micro column heads (series, since, yrs, level), and a level meter of five 8px by 10px square cells, ok when filled, rule when empty, with an sr-only "level n of 5".
+Skills as tables: a 2px ink caption with category and count, Label Micro column heads (series, since, yrs, level), and a level meter of five 8px by 10px square cells, ok when filled, rule when empty, with an sr-only "level n of 5". When a table scrolls up into view, its filled cells step on left to right, 90ms apart, once. A table already on screen stays at its final level. Reduced motion shows the final level.
 
 ### Boot Log
 Log lines as a `5ch 5ch 1fr` grid (year in dim, level in ok or info, message in ink), each revealed by a left-to-right clip at 110ms intervals after a 500ms delay, ending on `now OK healthy, accepting connections` and the live block cursor.
@@ -265,7 +265,7 @@ Log lines as a `5ch 5ch 1fr` grid (year in dim, level in ok or info, message in 
 - **Do** set every figure, date, status and label in Martian Mono with tabular numerals.
 - **Do** apply `greenbar` to any list or table of records.
 - **Do** resolve hover and focus to warn (2px warn outline, 3px offset for focus).
-- **Do** keep motion to the boot sequence, the clock, the cursor blink and the heartbeat, and show the final state under `prefers-reduced-motion`.
+- **Do** keep motion to the boot sequence, the clock, the cursor blink, the heartbeat, and the two readouts that draw in on arrival (trace spans, metric meters). Show the final state under `prefers-reduced-motion`.
 - **Do** use the `cubic-bezier(0.16, 1, 0.3, 1)` ease-out for any reveal.
 
 ### Don't:

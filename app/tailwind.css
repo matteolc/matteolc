@@ -179,6 +179,12 @@
   }
 }
 
+@keyframes meter-step {
+  to {
+    background-color: var(--ok);
+  }
+}
+
 @keyframes heartbeat {
   0%,
   100% {
@@ -203,6 +209,22 @@
 
 @utility animate-heartbeat {
   animation: heartbeat 2.4s ease-in-out infinite;
+}
+
+.meter-on {
+  background-color: var(--ok);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  [data-armed] .meter-on {
+    background-color: var(--rule);
+    animation: meter-step 1ms steps(1, end) forwards;
+    animation-play-state: paused;
+  }
+
+  [data-armed][data-lit] .meter-on {
+    animation-play-state: running;
+  }
 }
 
 @supports (animation-timeline: view()) {
