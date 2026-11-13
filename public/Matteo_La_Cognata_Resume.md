@@ -192,4 +192,13 @@ Acquired by Carta, where the team continued.
 - **Vitest** (Since 2024, Level 3)
 - **Minitest and RSpec** (Since 2012, Level 4)
 
+**Embedded**
+
+- **Arduino** (Since 2021, Level 2)
+- **ESP32** (Since 2021, Level 2)
+- **Raspberry Pi** (Since 2021, Level 2)
+- **Environmental sensors** (Since 2021, Level 2)
+- **Actuator control** (Since 2021, Level 2)
+- **Sensor forecasting** (Since 2021, Level 2)
+
 *(Level out of 5)*

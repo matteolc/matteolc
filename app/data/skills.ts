@@ -6,6 +6,7 @@ enum SkillCategory {
   databases = 'Databases',
   projectManagement = 'Project Management',
   testing = 'Testing',
+  embedded = 'Embedded',
 }
 
 const skills = {
@@ -238,6 +239,42 @@ const skills = {
       since: '2024',
       level: 4,
       category: SkillCategory.emergingTechnologies,
+    },
+    {
+      skill: 'Arduino',
+      since: '2021',
+      level: 2,
+      category: SkillCategory.embedded,
+    },
+    {
+      skill: 'ESP32',
+      since: '2021',
+      level: 2,
+      category: SkillCategory.embedded,
+    },
+    {
+      skill: 'Raspberry Pi',
+      since: '2021',
+      level: 2,
+      category: SkillCategory.embedded,
+    },
+    {
+      skill: 'Environmental sensors',
+      since: '2021',
+      level: 2,
+      category: SkillCategory.embedded,
+    },
+    {
+      skill: 'Actuator control',
+      since: '2021',
+      level: 2,
+      category: SkillCategory.embedded,
+    },
+    {
+      skill: 'Sensor forecasting',
+      since: '2021',
+      level: 2,
+      category: SkillCategory.embedded,
     },
   ],
 }

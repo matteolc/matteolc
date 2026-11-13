@@ -150,6 +150,12 @@ Git
 CI/CD
 Redis
 Elasticsearch
+Arduino (spare time, since 2021)
+ESP32 (spare time, since 2021)
+Raspberry Pi (spare time, since 2021)
+Environmental sensors (spare time, since 2021)
+Actuator control (spare time, since 2021)
+Sensor forecasting (spare time, since 2021)
 
 
 Passions
