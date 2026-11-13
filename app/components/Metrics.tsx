@@ -53,7 +53,7 @@ const Metrics = () => (
             {items.map(({ skill, since, level }) => (
               <tr
                 key={skill}
-                className="border-b border-rule/60 transition-colors hover:bg-panel"
+                className="border-b border-rule/60 transition-colors hover:bg-panel hover:shadow-[-12px_0_0_var(--panel),12px_0_0_var(--panel)]"
               >
                 <th
                   scope="row"

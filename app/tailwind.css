@@ -121,6 +121,10 @@
 @utility greenbar {
   & > :nth-child(odd) {
     background-color: var(--band);
+    /* Carry the band past the text, as wide as a row's hover highlight. */
+    box-shadow:
+      -12px 0 0 var(--band),
+      12px 0 0 var(--band);
   }
 }
 
