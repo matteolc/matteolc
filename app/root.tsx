@@ -4,6 +4,11 @@ import { Links, Meta, Outlet, Scripts } from 'react-router'
 
 export const links: LinksFunction = () => [
   { rel: 'icon', href: `${import.meta.env.BASE_URL}favicon.ico`, sizes: 'any' },
+  {
+    rel: 'icon',
+    href: `${import.meta.env.BASE_URL}favicon.svg`,
+    type: 'image/svg+xml',
+  },
   ...['martian-mono', 'hanken-grotesk'].map(font => ({
     rel: 'preload',
     href: `${import.meta.env.BASE_URL}fonts/${font}.woff2`,
