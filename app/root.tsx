@@ -2,14 +2,16 @@ import type { LinksFunction } from 'react-router'
 import './tailwind.css'
 import { Links, Meta, Outlet, Scripts } from 'react-router'
 
-export const links: LinksFunction = () =>
-  ['martian-mono', 'hanken-grotesk'].map(font => ({
+export const links: LinksFunction = () => [
+  { rel: 'icon', href: `${import.meta.env.BASE_URL}favicon.ico`, sizes: 'any' },
+  ...['martian-mono', 'hanken-grotesk'].map(font => ({
     rel: 'preload',
     href: `${import.meta.env.BASE_URL}fonts/${font}.woff2`,
     as: 'font',
     type: 'font/woff2',
-    crossOrigin: 'anonymous',
-  }))
+    crossOrigin: 'anonymous' as const,
+  })),
+]
 
 const themeInitScript = `
 (() => {
